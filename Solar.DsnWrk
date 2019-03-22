@@ -2,3 +2,7 @@
 Version=1.0
 [Project1]
 ProjectPath=Array Supervisor Board.PrjPcb
+[Project2]
+ProjectPath=External Libraries\panasonic\Panasonic_ERJ_0805\Panasonic_ERJ_0805.LibPkg
+[Project3]
+ProjectPath=External Libraries\murata\capacitor_murata_0805\capacitor_murata_0805.LibPkg
