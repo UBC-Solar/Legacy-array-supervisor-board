@@ -1,2 +1,4 @@
 Record=TopLevelDocument|FileName=ASB.SchDoc
-Record=SheetSymbol|SourceDocument=ASB.SchDoc|Designator=Voltage Sense Unit|SchDesignator=Voltage Sense Unit|FileName=Voltage Sense Unit.SchDoc|SymbolType=Normal|RawFileName=Voltage Sense Unit.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=ASB.SchDoc|Designator=VSU1|SchDesignator=VSU1|FileName=Voltage Sense Unit.SchDoc|SymbolType=Normal|RawFileName=Voltage Sense Unit.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=ASB.SchDoc|Designator=VSU2|SchDesignator=VSU2|FileName=Voltage Sense Unit.SchDoc|SymbolType=Normal|RawFileName=Voltage Sense Unit.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=ASB.SchDoc|Designator=VSU3|SchDesignator=VSU3|FileName=Voltage Sense Unit.SchDoc|SymbolType=Normal|RawFileName=Voltage Sense Unit.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
