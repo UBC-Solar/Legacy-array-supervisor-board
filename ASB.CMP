@@ -1,0 +1,15 @@
+Component   : HEADER_POS2_1_*43650-0205(Primary)
+PCB Library : ASB.PcbLib
+Date        : 2019-04-06
+Time        : 1:06:21 PM
+
+
+
+Dimension : 0.39 x 0.401 in
+
+ Layer(s)              Pads(s)  Tracks(s)  Fill(s)  Arc(s)  Text(s)
+--------------------------------------------------------------------
+ Multi Layer                 4          0        0       0        0
+ Top Overlay                 0         29        0       4        0
+--------------------------------------------------------------------
+ Total                       4         29        0       4        0
