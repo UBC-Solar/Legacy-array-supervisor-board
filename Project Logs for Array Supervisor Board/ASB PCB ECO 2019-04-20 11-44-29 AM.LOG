@@ -1,0 +1,454 @@
+Change Component Footprint: Designator=J7 Old Footprint=ESQ-119-24-T-D New Footprint=STM32 Nucleo Footprint]
+Change Component Comment : Designator=J7 Old Comment=2x19 Morpho Socket, Left New Comment=(2x19 Morpho Socket) x2
+Change Component Comment : Designator=C23 Old Comment=DNS New Comment=0.1uF
+Change Component Comment : Designator=C24 Old Comment=DNS New Comment=0.1uF
+Change Component Comment : Designator=C25 Old Comment=DNS New Comment=0.1uF
+Change Component Comment : Designator=R21 Old Comment=DNS New Comment=1K
+Change Component Comment : Designator=R22 Old Comment=DNS New Comment=1K
+Change Component Comment : Designator=R23 Old Comment=DNS New Comment=1K
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=12V Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=Ext 3V3 Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=Ext 5V Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=5V Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=3.3V Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=Temp_Sense_1 Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=Temp_Sense_2 Pin=C7-2
+Added Pin To Net: NetName=GND Pin=C8-1
+Added Pin To Net: NetName=Temp_Sense_3 Pin=C8-2
+Added Pin To Net: NetName=GND Pin=C9-1
+Added Pin To Net: NetName=Temp_Sense_4 Pin=C9-2
+Added Pin To Net: NetName=GND Pin=C10-1
+Added Pin To Net: NetName=Temp_Sense_5 Pin=C10-2
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=Temp_Sense_6 Pin=C11-2
+Added Pin To Net: NetName=GND Pin=C12-1
+Added Pin To Net: NetName=Temp_Sense_7 Pin=C12-2
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=Temp_Sense_8 Pin=C13-2
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=Temp_Sense_9 Pin=C14-2
+Added Pin To Net: NetName=GND Pin=C15-1
+Added Pin To Net: NetName=Temp_Sense_10 Pin=C15-2
+Added Pin To Net: NetName=GND Pin=C16-1
+Added Pin To Net: NetName=Temp_Sense_11 Pin=C16-2
+Added Pin To Net: NetName=NetC17_VSU1_1 Pin=C17_VSU1-1
+Added Pin To Net: NetName=OUT_VSU1 Pin=C17_VSU1-2
+Added Pin To Net: NetName=NetC17_VSU2_1 Pin=C17_VSU2-1
+Added Pin To Net: NetName=OUT_VSU2 Pin=C17_VSU2-2
+Added Pin To Net: NetName=NetC17_VSU3_1 Pin=C17_VSU3-1
+Added Pin To Net: NetName=OUT_VSU3 Pin=C17_VSU3-2
+Added Pin To Net: NetName=GND Pin=C18_VSU1-1
+Added Pin To Net: NetName=NetC18_VSU1_2 Pin=C18_VSU1-2
+Added Pin To Net: NetName=GND Pin=C18_VSU2-1
+Added Pin To Net: NetName=NetC18_VSU2_2 Pin=C18_VSU2-2
+Added Pin To Net: NetName=GND Pin=C18_VSU3-1
+Added Pin To Net: NetName=NetC18_VSU3_2 Pin=C18_VSU3-2
+Added Pin To Net: NetName=GND Pin=C19_VSU1-1
+Added Pin To Net: NetName=12V Pin=C19_VSU1-2
+Added Pin To Net: NetName=GND Pin=C19_VSU2-1
+Added Pin To Net: NetName=12V Pin=C19_VSU2-2
+Added Pin To Net: NetName=GND Pin=C19_VSU3-1
+Added Pin To Net: NetName=12V Pin=C19_VSU3-2
+Added Pin To Net: NetName=GND Pin=C20_VSU1-1
+Added Pin To Net: NetName=OUT_VSU1 Pin=C20_VSU1-2
+Added Pin To Net: NetName=GND Pin=C20_VSU2-1
+Added Pin To Net: NetName=OUT_VSU2 Pin=C20_VSU2-2
+Added Pin To Net: NetName=GND Pin=C20_VSU3-1
+Added Pin To Net: NetName=OUT_VSU3 Pin=C20_VSU3-2
+Added Pin To Net: NetName=GND Pin=C21_VSU1-1
+Added Pin To Net: NetName=NetC21_VSU1_2 Pin=C21_VSU1-2
+Added Pin To Net: NetName=GND Pin=C21_VSU2-1
+Added Pin To Net: NetName=NetC21_VSU2_2 Pin=C21_VSU2-2
+Added Pin To Net: NetName=GND Pin=C21_VSU3-1
+Added Pin To Net: NetName=NetC21_VSU3_2 Pin=C21_VSU3-2
+Added Pin To Net: NetName=GND Pin=C22_VSU1-1
+Added Pin To Net: NetName=NetC22_VSU1_2 Pin=C22_VSU1-2
+Added Pin To Net: NetName=GND Pin=C22_VSU2-1
+Added Pin To Net: NetName=NetC22_VSU2_2 Pin=C22_VSU2-2
+Added Pin To Net: NetName=GND Pin=C22_VSU3-1
+Added Pin To Net: NetName=NetC22_VSU3_2 Pin=C22_VSU3-2
+Added Pin To Net: NetName=NetC23_1 Pin=C23-1
+Added Pin To Net: NetName=NetC23_2 Pin=C23-2
+Added Pin To Net: NetName=NetC24_1 Pin=C24-1
+Added Pin To Net: NetName=NetC24_2 Pin=C24-2
+Added Pin To Net: NetName=NetC25_1 Pin=C25-1
+Added Pin To Net: NetName=NetC25_2 Pin=C25-2
+Added Pin To Net: NetName=GND Pin=D1-1
+Added Pin To Net: NetName=12V Pin=D1-2
+Added Pin To Net: NetName=GND Pin=D2-1
+Added Pin To Net: NetName=Ext 3V3 Pin=D2-2
+Added Pin To Net: NetName=GND Pin=D3-1
+Added Pin To Net: NetName=Ext 5V Pin=D3-2
+Added Pin To Net: NetName=NetD4_1 Pin=D4-1
+Added Pin To Net: NetName=LED1 Pin=D4-2
+Added Pin To Net: NetName=NetD5_1 Pin=D5-1
+Added Pin To Net: NetName=LED2 Pin=D5-2
+Added Pin To Net: NetName=NetD6_1 Pin=D6-1
+Added Pin To Net: NetName=LED3 Pin=D6-2
+Added Pin To Net: NetName=NetC23_1 Pin=D7-1
+Added Pin To Net: NetName=12V Pin=D7-2
+Added Pin To Net: NetName=NetC24_1 Pin=D8-1
+Added Pin To Net: NetName=12V Pin=D8-2
+Added Pin To Net: NetName=NetC25_1 Pin=D9-1
+Added Pin To Net: NetName=12V Pin=D9-2
+Added Pin To Net: NetName=NetF1_1 Pin=F1-1
+Added Pin To Net: NetName=Buck_Out Pin=F1-2
+Added Pin To Net: NetName=12V Pin=F2-1
+Added Pin To Net: NetName=NetF2_2 Pin=F2-2
+Added Pin To Net: NetName=NetF1_1 Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=Ext 3V3 Pin=J2-1
+Added Pin To Net: NetName=Buck_Out Pin=J2-2
+Added Pin To Net: NetName=Ext 5V Pin=J2-3
+Added Pin To Net: NetName=Ext 3V3 Pin=J3-1
+Added Pin To Net: NetName=3.3V Pin=J3-2
+Added Pin To Net: NetName=STM3V3_Out Pin=J3-3
+Added Pin To Net: NetName=CAN_L Pin=J4-2
+Added Pin To Net: NetName=GND Pin=J4-6
+Added Pin To Net: NetName=CAN_H Pin=J4-7
+Added Pin To Net: NetName=NetF2_2 Pin=J4-9
+Added Pin To Net: NetName=Ext 5V Pin=J5-1
+Added Pin To Net: NetName=STM5V_In Pin=J5-2
+Added Pin To Net: NetName=Ext 5V Pin=J6-1
+Added Pin To Net: NetName=5V Pin=J6-2
+Added Pin To Net: NetName=STM5V_Out Pin=J6-3
+Added Pin To Net: NetName=GND Pin=J9-1
+Added Pin To Net: NetName=3.3V Pin=J9-2
+Added Pin To Net: NetName=I_In_Sense_3 Pin=J9-3
+Added Pin To Net: NetName=I_In_Sense_3 Pin=J9-3
+Added Pin To Net: NetName=I_In_Sense_2 Pin=J9-4
+Added Pin To Net: NetName=I_In_Sense_1 Pin=J9-5
+Added Pin To Net: NetName=I_In_OCD_3 Pin=J9-6
+Added Pin To Net: NetName=I_In_OCD_2 Pin=J9-7
+Added Pin To Net: NetName=GND Pin=J10-1
+Added Pin To Net: NetName=3.3V Pin=J10-2
+Added Pin To Net: NetName=I_Out_Sense_3 Pin=J10-3
+Added Pin To Net: NetName=I_Out_Sense_3 Pin=J10-3
+Added Pin To Net: NetName=I_Out_Sense_2 Pin=J10-4
+Added Pin To Net: NetName=I_Out_Sense_1 Pin=J10-5
+Added Pin To Net: NetName=I_Out_OCD_3 Pin=J10-6
+Added Pin To Net: NetName=I_Out_OCD_2 Pin=J10-7
+Added Pin To Net: NetName=GND Pin=J11-1
+Added Pin To Net: NetName=12V Pin=J11-2
+Added Pin To Net: NetName=Temp_Sense_11 Pin=J11-3
+Added Pin To Net: NetName=Temp_Sense_10 Pin=J11-4
+Added Pin To Net: NetName=Temp_Sense_9 Pin=J11-5
+Added Pin To Net: NetName=Temp_Sense_8 Pin=J11-6
+Added Pin To Net: NetName=Temp_Sense_7 Pin=J11-7
+Added Pin To Net: NetName=Temp_Sense_6 Pin=J11-8
+Added Pin To Net: NetName=Temp_Sense_5 Pin=J11-9
+Added Pin To Net: NetName=Temp_Sense_4 Pin=J11-10
+Added Pin To Net: NetName=Temp_Sense_3 Pin=J11-11
+Added Pin To Net: NetName=Temp_Sense_2 Pin=J11-12
+Added Pin To Net: NetName=Temp_Sense_1 Pin=J11-13
+Added Pin To Net: NetName=NetC25_1 Pin=J12-1
+Added Pin To Net: NetName=12V Pin=J12-2
+Added Pin To Net: NetName=NetC24_1 Pin=J12-3
+Added Pin To Net: NetName=12V Pin=J12-4
+Added Pin To Net: NetName=NetC23_1 Pin=J12-5
+Added Pin To Net: NetName=12V Pin=J12-6
+Added Pin To Net: NetName=STM_VIN Pin=J14-1
+Added Pin To Net: NetName=12V Pin=J14-2
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-1
+Added Pin To Net: NetName=NetC23_1 Pin=Q1-2
+Added Pin To Net: NetName=GND Pin=Q1-3
+Added Pin To Net: NetName=NetQ2_1 Pin=Q2-1
+Added Pin To Net: NetName=NetC24_1 Pin=Q2-2
+Added Pin To Net: NetName=GND Pin=Q2-3
+Added Pin To Net: NetName=NetQ3_1 Pin=Q3-1
+Added Pin To Net: NetName=NetC25_1 Pin=Q3-2
+Added Pin To Net: NetName=GND Pin=Q3-3
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=GND Pin=R1-2
+Added Pin To Net: NetName=NetD4_1 Pin=R2-1
+Added Pin To Net: NetName=3.3V Pin=R2-2
+Added Pin To Net: NetName=NetD5_1 Pin=R3-1
+Added Pin To Net: NetName=3.3V Pin=R3-2
+Added Pin To Net: NetName=NetD6_1 Pin=R4-1
+Added Pin To Net: NetName=3.3V Pin=R4-2
+Added Pin To Net: NetName=GND Pin=R5-1
+Added Pin To Net: NetName=NetQ1_1 Pin=R5-2
+Added Pin To Net: NetName=GND Pin=R6-1
+Added Pin To Net: NetName=NetQ2_1 Pin=R6-2
+Added Pin To Net: NetName=GND Pin=R7-1
+Added Pin To Net: NetName=NetQ3_1 Pin=R7-2
+Added Pin To Net: NetName=NetJ13_VSU1_2 Pin=R8_VSU1-1
+Added Pin To Net: NetName=NetR8_VSU1_2 Pin=R8_VSU1-2
+Added Pin To Net: NetName=NetJ13_VSU2_2 Pin=R8_VSU2-1
+Added Pin To Net: NetName=NetR8_VSU2_2 Pin=R8_VSU2-2
+Added Pin To Net: NetName=NetJ13_VSU3_2 Pin=R8_VSU3-1
+Added Pin To Net: NetName=NetR8_VSU3_2 Pin=R8_VSU3-2
+Added Pin To Net: NetName=NetR8_VSU1_2 Pin=R9_VSU1-1
+Added Pin To Net: NetName=NetR9_VSU1_2 Pin=R9_VSU1-2
+Added Pin To Net: NetName=NetR8_VSU2_2 Pin=R9_VSU2-1
+Added Pin To Net: NetName=NetR9_VSU2_2 Pin=R9_VSU2-2
+Added Pin To Net: NetName=NetR8_VSU3_2 Pin=R9_VSU3-1
+Added Pin To Net: NetName=NetR9_VSU3_2 Pin=R9_VSU3-2
+Added Pin To Net: NetName=NetR9_VSU1_2 Pin=R10_VSU1-1
+Added Pin To Net: NetName=NetC18_VSU1_2 Pin=R10_VSU1-2
+Added Pin To Net: NetName=NetR9_VSU2_2 Pin=R10_VSU2-1
+Added Pin To Net: NetName=NetC18_VSU2_2 Pin=R10_VSU2-2
+Added Pin To Net: NetName=NetR9_VSU3_2 Pin=R10_VSU3-1
+Added Pin To Net: NetName=NetC18_VSU3_2 Pin=R10_VSU3-2
+Added Pin To Net: NetName=NetC18_VSU1_2 Pin=R11_VSU1-1
+Added Pin To Net: NetName=NetC17_VSU1_1 Pin=R11_VSU1-2
+Added Pin To Net: NetName=NetC18_VSU2_2 Pin=R11_VSU2-1
+Added Pin To Net: NetName=NetC17_VSU2_1 Pin=R11_VSU2-2
+Added Pin To Net: NetName=NetC18_VSU3_2 Pin=R11_VSU3-1
+Added Pin To Net: NetName=NetC17_VSU3_1 Pin=R11_VSU3-2
+Added Pin To Net: NetName=NetC17_VSU1_1 Pin=R12_VSU1-1
+Added Pin To Net: NetName=OUT_VSU1 Pin=R12_VSU1-2
+Added Pin To Net: NetName=NetC17_VSU2_1 Pin=R12_VSU2-1
+Added Pin To Net: NetName=OUT_VSU2 Pin=R12_VSU2-2
+Added Pin To Net: NetName=NetC17_VSU3_1 Pin=R12_VSU3-1
+Added Pin To Net: NetName=OUT_VSU3 Pin=R12_VSU3-2
+Added Pin To Net: NetName=GND Pin=R13_VSU1-1
+Added Pin To Net: NetName=NetC18_VSU1_2 Pin=R13_VSU1-2
+Added Pin To Net: NetName=GND Pin=R13_VSU2-1
+Added Pin To Net: NetName=NetC18_VSU2_2 Pin=R13_VSU2-2
+Added Pin To Net: NetName=GND Pin=R13_VSU3-1
+Added Pin To Net: NetName=NetC18_VSU3_2 Pin=R13_VSU3-2
+Added Pin To Net: NetName=NetJ13_VSU1_1 Pin=R14_VSU1-1
+Added Pin To Net: NetName=NetR14_VSU1_2 Pin=R14_VSU1-2
+Added Pin To Net: NetName=NetJ13_VSU2_1 Pin=R14_VSU2-1
+Added Pin To Net: NetName=NetR14_VSU2_2 Pin=R14_VSU2-2
+Added Pin To Net: NetName=NetJ13_VSU3_1 Pin=R14_VSU3-1
+Added Pin To Net: NetName=NetR14_VSU3_2 Pin=R14_VSU3-2
+Added Pin To Net: NetName=NetR14_VSU1_2 Pin=R15_VSU1-1
+Added Pin To Net: NetName=NetR15_VSU1_2 Pin=R15_VSU1-2
+Added Pin To Net: NetName=NetR14_VSU2_2 Pin=R15_VSU2-1
+Added Pin To Net: NetName=NetR15_VSU2_2 Pin=R15_VSU2-2
+Added Pin To Net: NetName=NetR14_VSU3_2 Pin=R15_VSU3-1
+Added Pin To Net: NetName=NetR15_VSU3_2 Pin=R15_VSU3-2
+Added Pin To Net: NetName=NetR15_VSU1_2 Pin=R16_VSU1-1
+Added Pin To Net: NetName=NetC22_VSU1_2 Pin=R16_VSU1-2
+Added Pin To Net: NetName=NetR15_VSU2_2 Pin=R16_VSU2-1
+Added Pin To Net: NetName=NetC22_VSU2_2 Pin=R16_VSU2-2
+Added Pin To Net: NetName=NetR15_VSU3_2 Pin=R16_VSU3-1
+Added Pin To Net: NetName=NetC22_VSU3_2 Pin=R16_VSU3-2
+Added Pin To Net: NetName=NetC22_VSU1_2 Pin=R17_VSU1-1
+Added Pin To Net: NetName=NetC21_VSU1_2 Pin=R17_VSU1-2
+Added Pin To Net: NetName=NetC22_VSU2_2 Pin=R17_VSU2-1
+Added Pin To Net: NetName=NetC21_VSU2_2 Pin=R17_VSU2-2
+Added Pin To Net: NetName=NetC22_VSU3_2 Pin=R17_VSU3-1
+Added Pin To Net: NetName=NetC21_VSU3_2 Pin=R17_VSU3-2
+Added Pin To Net: NetName=GND Pin=R18_VSU1-1
+Added Pin To Net: NetName=NetC21_VSU1_2 Pin=R18_VSU1-2
+Added Pin To Net: NetName=GND Pin=R18_VSU2-1
+Added Pin To Net: NetName=NetC21_VSU2_2 Pin=R18_VSU2-2
+Added Pin To Net: NetName=GND Pin=R18_VSU3-1
+Added Pin To Net: NetName=NetC21_VSU3_2 Pin=R18_VSU3-2
+Added Pin To Net: NetName=GND Pin=R19_VSU1-1
+Added Pin To Net: NetName=NetC22_VSU1_2 Pin=R19_VSU1-2
+Added Pin To Net: NetName=GND Pin=R19_VSU2-1
+Added Pin To Net: NetName=NetC22_VSU2_2 Pin=R19_VSU2-2
+Added Pin To Net: NetName=GND Pin=R19_VSU3-1
+Added Pin To Net: NetName=NetC22_VSU3_2 Pin=R19_VSU3-2
+Added Pin To Net: NetName=CAN_L Pin=R20-1
+Added Pin To Net: NetName=CAN_H Pin=R20-2
+Added Pin To Net: NetName=NetC23_2 Pin=R21-1
+Added Pin To Net: NetName=12V Pin=R21-2
+Added Pin To Net: NetName=NetC24_2 Pin=R22-1
+Added Pin To Net: NetName=12V Pin=R22-2
+Added Pin To Net: NetName=NetC25_2 Pin=R23-1
+Added Pin To Net: NetName=12V Pin=R23-2
+Added Pin To Net: NetName=Relay_FET_G2 Pin=R24-1
+Added Pin To Net: NetName=NetQ2_1 Pin=R24-2
+Added Pin To Net: NetName=Relay_FET_G1 Pin=R25-1
+Added Pin To Net: NetName=NetQ3_1 Pin=R25-2
+Added Pin To Net: NetName=Relay_FET_G3 Pin=R26-1
+Added Pin To Net: NetName=NetQ1_1 Pin=R26-2
+Added Pin To Net: NetName=NetC17_VSU1_1 Pin=TP1_VSU1-1
+Added Pin To Net: NetName=NetC17_VSU2_1 Pin=TP1_VSU2-1
+Added Pin To Net: NetName=NetC17_VSU3_1 Pin=TP1_VSU3-1
+Added Pin To Net: NetName=OUT_VSU1 Pin=TP2_VSU1-1
+Added Pin To Net: NetName=OUT_VSU2 Pin=TP2_VSU2-1
+Added Pin To Net: NetName=OUT_VSU3 Pin=TP2_VSU3-1
+Added Pin To Net: NetName=NetC21_VSU1_2 Pin=TP3_VSU1-1
+Added Pin To Net: NetName=NetC21_VSU2_2 Pin=TP3_VSU2-1
+Added Pin To Net: NetName=NetC21_VSU3_2 Pin=TP3_VSU3-1
+Added Pin To Net: NetName=12V Pin=TP4-1
+Added Pin To Net: NetName=3.3V Pin=TP5-1
+Added Pin To Net: NetName=5V Pin=TP6-1
+Added Pin To Net: NetName=Buck_Out Pin=TP7-1
+Added Pin To Net: NetName=CANTX Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=5V Pin=U1-3
+Added Pin To Net: NetName=CANRX Pin=U1-4
+Added Pin To Net: NetName=CAN_L Pin=U1-6
+Added Pin To Net: NetName=CAN_H Pin=U1-7
+Added Pin To Net: NetName=NetR1_1 Pin=U1-8
+Added Pin To Net: NetName=Temp_Sense_1 Pin=U2-1
+Added Pin To Net: NetName=Temp_Sense_2 Pin=U2-2
+Added Pin To Net: NetName=Temp_Sense_3 Pin=U2-3
+Added Pin To Net: NetName=Temp_Sense_4 Pin=U2-4
+Added Pin To Net: NetName=Temp_Sense_5 Pin=U2-5
+Added Pin To Net: NetName=Temp_Sense_6 Pin=U2-6
+Added Pin To Net: NetName=Temp_Sense_7 Pin=U2-7
+Added Pin To Net: NetName=Temp_Sense_8 Pin=U2-8
+Added Pin To Net: NetName=Temp_Sense_9 Pin=U2-9
+Added Pin To Net: NetName=GND Pin=U2-10
+Added Pin To Net: NetName=Temp_Sense_10 Pin=U2-11
+Added Pin To Net: NetName=Temp_Sense_11 Pin=U2-12
+Added Pin To Net: NetName=ADC_NSS Pin=U2-15
+Added Pin To Net: NetName=ADC_MISO Pin=U2-16
+Added Pin To Net: NetName=ADC_MOSI Pin=U2-17
+Added Pin To Net: NetName=ADC_SCK Pin=U2-18
+Added Pin To Net: NetName=ADC_EOC Pin=U2-19
+Added Pin To Net: NetName=3.3V Pin=U2-20
+Added Pin To Net: NetName=NetC17_VSU1_1 Pin=U3_VSU1-2
+Added Pin To Net: NetName=NetC21_VSU1_2 Pin=U3_VSU1-3
+Added Pin To Net: NetName=GND Pin=U3_VSU1-4
+Added Pin To Net: NetName=OUT_VSU1 Pin=U3_VSU1-6
+Added Pin To Net: NetName=12V Pin=U3_VSU1-7
+Added Pin To Net: NetName=NetC17_VSU2_1 Pin=U3_VSU2-2
+Added Pin To Net: NetName=NetC21_VSU2_2 Pin=U3_VSU2-3
+Added Pin To Net: NetName=GND Pin=U3_VSU2-4
+Added Pin To Net: NetName=OUT_VSU2 Pin=U3_VSU2-6
+Added Pin To Net: NetName=12V Pin=U3_VSU2-7
+Added Pin To Net: NetName=NetC17_VSU3_1 Pin=U3_VSU3-2
+Added Pin To Net: NetName=NetC21_VSU3_2 Pin=U3_VSU3-3
+Added Pin To Net: NetName=GND Pin=U3_VSU3-4
+Added Pin To Net: NetName=OUT_VSU3 Pin=U3_VSU3-6
+Added Pin To Net: NetName=12V Pin=U3_VSU3-7
+Added Member To Class: ClassName=ASB Member=Component C1 10nF
+Added Member To Class: ClassName=ASB Member=Component C2 10nF
+Added Member To Class: ClassName=ASB Member=Component C3 10nF
+Added Member To Class: ClassName=ASB Member=Component C4 0.1uF
+Added Member To Class: ClassName=ASB Member=Component C5 1uF
+Added Member To Class: ClassName=ASB Member=Component C6 1nF
+Added Member To Class: ClassName=ASB Member=Component C7 1nF
+Added Member To Class: ClassName=ASB Member=Component C8 1nF
+Added Member To Class: ClassName=ASB Member=Component C9 1nF
+Added Member To Class: ClassName=ASB Member=Component C10 1nF
+Added Member To Class: ClassName=ASB Member=Component C11 1nF
+Added Member To Class: ClassName=ASB Member=Component C12 1nF
+Added Member To Class: ClassName=ASB Member=Component C13 1nF
+Added Member To Class: ClassName=ASB Member=Component C14 1nF
+Added Member To Class: ClassName=ASB Member=Component C15 1nF
+Added Member To Class: ClassName=ASB Member=Component C16 1nF
+Added Member To Class: ClassName=VSU1 Member=Component C17_VSU1 (C17) 0.33uF
+Added Member To Class: ClassName=VSU2 Member=Component C17_VSU2 (C17) 0.33uF
+Added Member To Class: ClassName=VSU3 Member=Component C17_VSU3 (C17) 0.33uF
+Added Member To Class: ClassName=VSU1 Member=Component C18_VSU1 (C18) 0.33uF
+Added Member To Class: ClassName=VSU2 Member=Component C18_VSU2 (C18) 0.33uF
+Added Member To Class: ClassName=VSU3 Member=Component C18_VSU3 (C18) 0.33uF
+Added Member To Class: ClassName=VSU1 Member=Component C19_VSU1 (C19) 0.1uF
+Added Member To Class: ClassName=VSU2 Member=Component C19_VSU2 (C19) 0.1uF
+Added Member To Class: ClassName=VSU3 Member=Component C19_VSU3 (C19) 0.1uF
+Added Member To Class: ClassName=VSU1 Member=Component C20_VSU1 (C20) 0.1uF
+Added Member To Class: ClassName=VSU2 Member=Component C20_VSU2 (C20) 0.1uF
+Added Member To Class: ClassName=VSU3 Member=Component C20_VSU3 (C20) 0.1uF
+Added Member To Class: ClassName=VSU1 Member=Component C21_VSU1 (C21) 0.33uF
+Added Member To Class: ClassName=VSU2 Member=Component C21_VSU2 (C21) 0.33uF
+Added Member To Class: ClassName=VSU3 Member=Component C21_VSU3 (C21) 0.33uF
+Added Member To Class: ClassName=VSU1 Member=Component C22_VSU1 (C22) 0.33uF
+Added Member To Class: ClassName=VSU2 Member=Component C22_VSU2 (C22) 0.33uF
+Added Member To Class: ClassName=VSU3 Member=Component C22_VSU3 (C22) 0.33uF
+Added Member To Class: ClassName=ASB Member=Component C23 0.1uF
+Added Member To Class: ClassName=ASB Member=Component C24 0.1uF
+Added Member To Class: ClassName=ASB Member=Component C25 0.1uF
+Added Member To Class: ClassName=ASB Member=Component D1 TVS Diode 12V
+Added Member To Class: ClassName=ASB Member=Component D2 TVS Diode 3V3
+Added Member To Class: ClassName=ASB Member=Component D3 TVS Diode 5V
+Added Member To Class: ClassName=ASB Member=Component D4 Green LED
+Added Member To Class: ClassName=ASB Member=Component D5 Yellow LED
+Added Member To Class: ClassName=ASB Member=Component D6 Red LED
+Added Member To Class: ClassName=ASB Member=Component D7 Diode 50V 1A
+Added Member To Class: ClassName=ASB Member=Component D8 Diode 50V 1A
+Added Member To Class: ClassName=ASB Member=Component D9 Diode 50V 1A
+Added Member To Class: ClassName=ASB Member=Component F1 Fuseholder
+Added Member To Class: ClassName=ASB Member=Component F2 Fuseholder
+Added Member To Class: ClassName=ASB Member=Component J1 1x2 Header, RA, Shrouded
+Added Member To Class: ClassName=ASB Member=Component J2 1x3 HDR100
+Added Member To Class: ClassName=ASB Member=Component J3 1x3 HDR100
+Added Member To Class: ClassName=ASB Member=Component J4 D-Sub9 Header, RA
+Added Member To Class: ClassName=ASB Member=Component J5 1x2 HDR100
+Added Member To Class: ClassName=ASB Member=Component J6 1x3 HDR100
+Added Member To Class: ClassName=ASB Member=Component J7 (2x19 Morpho Socket) x2
+Added Member To Class: ClassName=ASB Member=Component J9 2x4 Socket, RA
+Added Member To Class: ClassName=ASB Member=Component J10 2x4 Socket, RA
+Added Member To Class: ClassName=ASB Member=Component J11 2x7 Socket, RA
+Added Member To Class: ClassName=ASB Member=Component J12 2x3 Socket, RA
+Added Member To Class: ClassName=VSU1 Member=Component J13_VSU1 (J13) 1x2 Header, RA
+Added Member To Class: ClassName=VSU2 Member=Component J13_VSU2 (J13) 1x2 Header, RA
+Added Member To Class: ClassName=VSU3 Member=Component J13_VSU3 (J13) 1x2 Header, RA
+Added Member To Class: ClassName=ASB Member=Component J14 1x2 HDR100
+Added Member To Class: ClassName=ASB Member=Component Q1 DMG6968U
+Added Member To Class: ClassName=ASB Member=Component Q2 DMG6968U
+Added Member To Class: ClassName=ASB Member=Component Q3 DMG6968U
+Added Member To Class: ClassName=ASB Member=Component R1 1K
+Added Member To Class: ClassName=ASB Member=Component R2 150
+Added Member To Class: ClassName=ASB Member=Component R3 150
+Added Member To Class: ClassName=ASB Member=Component R4 150
+Added Member To Class: ClassName=ASB Member=Component R5 20K
+Added Member To Class: ClassName=ASB Member=Component R6 20K
+Added Member To Class: ClassName=ASB Member=Component R7 20K
+Added Member To Class: ClassName=VSU1 Member=Component R8_VSU1 (R8) 3K
+Added Member To Class: ClassName=VSU2 Member=Component R8_VSU2 (R8) 3K
+Added Member To Class: ClassName=VSU3 Member=Component R8_VSU3 (R8) 3K
+Added Member To Class: ClassName=VSU1 Member=Component R9_VSU1 (R9) 3K
+Added Member To Class: ClassName=VSU2 Member=Component R9_VSU2 (R9) 3K
+Added Member To Class: ClassName=VSU3 Member=Component R9_VSU3 (R9) 3K
+Added Member To Class: ClassName=VSU1 Member=Component R10_VSU1 (R10) 3K
+Added Member To Class: ClassName=VSU2 Member=Component R10_VSU2 (R10) 3K
+Added Member To Class: ClassName=VSU3 Member=Component R10_VSU3 (R10) 3K
+Added Member To Class: ClassName=VSU1 Member=Component R11_VSU1 (R11) 20K
+Added Member To Class: ClassName=VSU2 Member=Component R11_VSU2 (R11) 20K
+Added Member To Class: ClassName=VSU3 Member=Component R11_VSU3 (R11) 20K
+Added Member To Class: ClassName=VSU1 Member=Component R12_VSU1 (R12) 6.2K
+Added Member To Class: ClassName=VSU2 Member=Component R12_VSU2 (R12) 6.2K
+Added Member To Class: ClassName=VSU3 Member=Component R12_VSU3 (R12) 6.2K
+Added Member To Class: ClassName=VSU1 Member=Component R13_VSU1 (R13) 1K
+Added Member To Class: ClassName=VSU2 Member=Component R13_VSU2 (R13) 1K
+Added Member To Class: ClassName=VSU3 Member=Component R13_VSU3 (R13) 1K
+Added Member To Class: ClassName=VSU1 Member=Component R14_VSU1 (R14) 3K
+Added Member To Class: ClassName=VSU2 Member=Component R14_VSU2 (R14) 3K
+Added Member To Class: ClassName=VSU3 Member=Component R14_VSU3 (R14) 3K
+Added Member To Class: ClassName=VSU1 Member=Component R15_VSU1 (R15) 3K
+Added Member To Class: ClassName=VSU2 Member=Component R15_VSU2 (R15) 3K
+Added Member To Class: ClassName=VSU3 Member=Component R15_VSU3 (R15) 3K
+Added Member To Class: ClassName=VSU1 Member=Component R16_VSU1 (R16) 3K
+Added Member To Class: ClassName=VSU2 Member=Component R16_VSU2 (R16) 3K
+Added Member To Class: ClassName=VSU3 Member=Component R16_VSU3 (R16) 3K
+Added Member To Class: ClassName=VSU1 Member=Component R17_VSU1 (R17) 20K
+Added Member To Class: ClassName=VSU2 Member=Component R17_VSU2 (R17) 20K
+Added Member To Class: ClassName=VSU3 Member=Component R17_VSU3 (R17) 20K
+Added Member To Class: ClassName=VSU1 Member=Component R18_VSU1 (R18) 6.2K
+Added Member To Class: ClassName=VSU2 Member=Component R18_VSU2 (R18) 6.2K
+Added Member To Class: ClassName=VSU3 Member=Component R18_VSU3 (R18) 6.2K
+Added Member To Class: ClassName=VSU1 Member=Component R19_VSU1 (R19) 1K
+Added Member To Class: ClassName=VSU2 Member=Component R19_VSU2 (R19) 1K
+Added Member To Class: ClassName=VSU3 Member=Component R19_VSU3 (R19) 1K
+Added Member To Class: ClassName=ASB Member=Component R20 120
+Added Member To Class: ClassName=ASB Member=Component R21 1K
+Added Member To Class: ClassName=ASB Member=Component R22 1K
+Added Member To Class: ClassName=ASB Member=Component R23 1K
+Added Member To Class: ClassName=ASB Member=Component R24 150
+Added Member To Class: ClassName=ASB Member=Component R25 150
+Added Member To Class: ClassName=ASB Member=Component R26 150
+Added Member To Class: ClassName=VSU1 Member=Component TP1_VSU1 (TP1) SMD Test Point
+Added Member To Class: ClassName=VSU2 Member=Component TP1_VSU2 (TP1) SMD Test Point
+Added Member To Class: ClassName=VSU3 Member=Component TP1_VSU3 (TP1) SMD Test Point
+Added Member To Class: ClassName=VSU1 Member=Component TP2_VSU1 (TP2) SMD Test Point
+Added Member To Class: ClassName=VSU2 Member=Component TP2_VSU2 (TP2) SMD Test Point
+Added Member To Class: ClassName=VSU3 Member=Component TP2_VSU3 (TP2) SMD Test Point
+Added Member To Class: ClassName=VSU1 Member=Component TP3_VSU1 (TP3) SMD Test Point
+Added Member To Class: ClassName=VSU2 Member=Component TP3_VSU2 (TP3) SMD Test Point
+Added Member To Class: ClassName=VSU3 Member=Component TP3_VSU3 (TP3) SMD Test Point
+Added Member To Class: ClassName=ASB Member=Component TP4 SMD Test Point
+Added Member To Class: ClassName=ASB Member=Component TP5 SMD Test Point
+Added Member To Class: ClassName=ASB Member=Component TP6 SMD Test Point
+Added Member To Class: ClassName=ASB Member=Component TP7 SMD Test Point
+Added Member To Class: ClassName=ASB Member=Component U1 CAN, MCP2551
+Added Member To Class: ClassName=ASB Member=Component U2 ADC, TLV2556
+Added Member To Class: ClassName=VSU1 Member=Component U3_VSU1 (U3) OpAmp, LT1677
+Added Member To Class: ClassName=VSU2 Member=Component U3_VSU2 (U3) OpAmp, LT1677
+Added Member To Class: ClassName=VSU3 Member=Component U3_VSU3 (U3) OpAmp, LT1677

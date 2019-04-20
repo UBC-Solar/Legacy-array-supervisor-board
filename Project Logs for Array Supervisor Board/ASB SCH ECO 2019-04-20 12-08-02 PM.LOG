@@ -1,0 +1,3 @@
+Remove Pin=J7A-18L From Net=STM5V_Out
+Remove Pin=J9-8 From Net=I_In_OCD_1
+Remove Pin=J10-8 From Net=I_Out_OCD_1
