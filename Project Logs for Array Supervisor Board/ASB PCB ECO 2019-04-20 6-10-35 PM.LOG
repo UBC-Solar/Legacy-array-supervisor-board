@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=Temp_Sense_1 Pin=J11-1
+Removed Pin From Net: NetName=Temp_Sense_2 Pin=J11-2
+Removed Pin From Net: NetName=Temp_Sense_3 Pin=J11-3
+Removed Pin From Net: NetName=Temp_Sense_5 Pin=J11-5
+Removed Pin From Net: NetName=Temp_Sense_6 Pin=J11-6
+Removed Pin From Net: NetName=Temp_Sense_7 Pin=J11-7
+Added Pin To Net: NetName=Temp_Sense_7 Pin=J11-1
+Added Pin To Net: NetName=Temp_Sense_6 Pin=J11-2
+Added Pin To Net: NetName=Temp_Sense_5 Pin=J11-3
+Added Pin To Net: NetName=Temp_Sense_3 Pin=J11-5
+Added Pin To Net: NetName=Temp_Sense_2 Pin=J11-6
+Added Pin To Net: NetName=Temp_Sense_1 Pin=J11-7

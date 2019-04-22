@@ -1,0 +1,62 @@
+Added Component: Designator=J9(Molex 105314 8 CON)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Category"; Value = "Connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Black"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "https://www.molex.com/pdm_docs/ps/PS-105300-100-001.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.molex.com/pdm_docs/ps/PS-105300-100-001.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "http://www.farnell.com/datasheets/2059602.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.farnell.com/datasheets/2059602.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "1053141208"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1 = 2.35000, 10 = 2.13500, 156 = 1.82994, 624 = 1.52495, 1092 = 1.30710, 5148 = 1.15896 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "3073"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "WM14978-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Through Hole"; VariantName = "[No Variations]"
+Added Component: Designator=J10(Molex 105314 8 CON)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Category"; Value = "Connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Color"; Value = "Black"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "https://www.molex.com/pdm_docs/ps/PS-105300-100-001.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.molex.com/pdm_docs/ps/PS-105300-100-001.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "http://www.farnell.com/datasheets/2059602.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.farnell.com/datasheets/2059602.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "1053141208"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1 = 2.35000, 10 = 2.13500, 156 = 1.82994, 624 = 1.52495, 1092 = 1.30710, 5148 = 1.15896 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "3073"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "WM14978-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Through Hole"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J9-1
+Added Pin To Net: NetName=I_In_Sense_1 Pin=J9-2
+Added Pin To Net: NetName=I_In_Sense_2 Pin=J9-3
+Added Pin To Net: NetName=I_In_Sense_3 Pin=J9-4
+Added Pin To Net: NetName=3.3V Pin=J9-5
+Added Pin To Net: NetName=I_In_OCD_1 Pin=J9-6
+Added Pin To Net: NetName=I_In_OCD_2 Pin=J9-7
+Added Pin To Net: NetName=I_In_OCD_3 Pin=J9-8
+Added Pin To Net: NetName=GND Pin=J10-1
+Added Pin To Net: NetName=I_Out_Sense_1 Pin=J10-2
+Added Pin To Net: NetName=I_Out_Sense_2 Pin=J10-3
+Added Pin To Net: NetName=I_Out_Sense_3 Pin=J10-4
+Added Pin To Net: NetName=3.3V Pin=J10-5
+Added Pin To Net: NetName=I_Out_OCD_1 Pin=J10-6
+Added Pin To Net: NetName=I_Out_OCD_2 Pin=J10-7
+Added Pin To Net: NetName=I_Out_OCD_3 Pin=J10-8
+Added Member To Class: ClassName=ASB Member=Component J9 2x4 Socket, RA
+Added Member To Class: ClassName=ASB Member=Component J10 2x4 Socket, RA
