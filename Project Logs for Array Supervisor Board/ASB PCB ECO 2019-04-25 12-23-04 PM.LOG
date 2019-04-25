@@ -1,0 +1,10 @@
+Added Member To Class: ClassName=VSU3 Member=Component C17_VSU3 (C17) 0.33uF
+Added Member To Class: ClassName=VSU3 Member=Component C19_VSU3 (C19) 0.1uF
+Added Member To Class: ClassName=VSU3 Member=Component C20_VSU3 (C20) 0.1uF
+Added Member To Class: ClassName=VSU3 Member=Component C21_VSU3 (C21) 0.33uF
+Added Member To Class: ClassName=VSU3 Member=Component R12_VSU3 (R12) 6.2K
+Added Member To Class: ClassName=VSU3 Member=Component R18_VSU3 (R18) 6.2K
+Added Member To Class: ClassName=VSU3 Member=Component TP1_VSU3 (TP1) SMD Test Point
+Added Member To Class: ClassName=VSU3 Member=Component TP2_VSU3 (TP2) SMD Test Point
+Added Member To Class: ClassName=VSU3 Member=Component TP3_VSU3 (TP3) SMD Test Point
+Added Member To Class: ClassName=VSU3 Member=Component U3_VSU3 (U3) OpAmp, LT1677

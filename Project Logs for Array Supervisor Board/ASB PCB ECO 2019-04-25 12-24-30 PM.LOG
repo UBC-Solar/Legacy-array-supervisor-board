@@ -1,0 +1,46 @@
+Added Member To Class: ClassName=VSU2 Member=Component C17_VSU2 (C17) 0.33uF
+Added Member To Class: ClassName=VSU3 Member=Component C17_VSU3 (C17) 0.33uF
+Added Member To Class: ClassName=VSU2 Member=Component C18_VSU2 (C18) 0.33uF
+Added Member To Class: ClassName=VSU3 Member=Component C18_VSU3 (C18) 0.33uF
+Added Member To Class: ClassName=VSU2 Member=Component C19_VSU2 (C19) 0.1uF
+Added Member To Class: ClassName=VSU3 Member=Component C19_VSU3 (C19) 0.1uF
+Added Member To Class: ClassName=VSU2 Member=Component C20_VSU2 (C20) 0.1uF
+Added Member To Class: ClassName=VSU3 Member=Component C20_VSU3 (C20) 0.1uF
+Added Member To Class: ClassName=VSU2 Member=Component C21_VSU2 (C21) 0.33uF
+Added Member To Class: ClassName=VSU3 Member=Component C21_VSU3 (C21) 0.33uF
+Added Member To Class: ClassName=VSU2 Member=Component C22_VSU2 (C22) 0.33uF
+Added Member To Class: ClassName=VSU3 Member=Component C22_VSU3 (C22) 0.33uF
+Added Member To Class: ClassName=VSU2 Member=Component J13_VSU2 (J13) 1x2 Header, RA
+Added Member To Class: ClassName=VSU3 Member=Component J13_VSU3 (J13) 1x2 Header, RA
+Added Member To Class: ClassName=VSU2 Member=Component R8_VSU2 (R8) 3K
+Added Member To Class: ClassName=VSU3 Member=Component R8_VSU3 (R8) 3K
+Added Member To Class: ClassName=VSU2 Member=Component R9_VSU2 (R9) 3K
+Added Member To Class: ClassName=VSU3 Member=Component R9_VSU3 (R9) 3K
+Added Member To Class: ClassName=VSU2 Member=Component R10_VSU2 (R10) 3K
+Added Member To Class: ClassName=VSU3 Member=Component R10_VSU3 (R10) 3K
+Added Member To Class: ClassName=VSU2 Member=Component R11_VSU2 (R11) 20K
+Added Member To Class: ClassName=VSU3 Member=Component R11_VSU3 (R11) 20K
+Added Member To Class: ClassName=VSU2 Member=Component R12_VSU2 (R12) 6.2K
+Added Member To Class: ClassName=VSU3 Member=Component R12_VSU3 (R12) 6.2K
+Added Member To Class: ClassName=VSU2 Member=Component R13_VSU2 (R13) 1K
+Added Member To Class: ClassName=VSU3 Member=Component R13_VSU3 (R13) 1K
+Added Member To Class: ClassName=VSU2 Member=Component R14_VSU2 (R14) 3K
+Added Member To Class: ClassName=VSU3 Member=Component R14_VSU3 (R14) 3K
+Added Member To Class: ClassName=VSU2 Member=Component R15_VSU2 (R15) 3K
+Added Member To Class: ClassName=VSU3 Member=Component R15_VSU3 (R15) 3K
+Added Member To Class: ClassName=VSU2 Member=Component R16_VSU2 (R16) 3K
+Added Member To Class: ClassName=VSU3 Member=Component R16_VSU3 (R16) 3K
+Added Member To Class: ClassName=VSU2 Member=Component R17_VSU2 (R17) 20K
+Added Member To Class: ClassName=VSU3 Member=Component R17_VSU3 (R17) 20K
+Added Member To Class: ClassName=VSU2 Member=Component R18_VSU2 (R18) 6.2K
+Added Member To Class: ClassName=VSU3 Member=Component R18_VSU3 (R18) 6.2K
+Added Member To Class: ClassName=VSU2 Member=Component R19_VSU2 (R19) 1K
+Added Member To Class: ClassName=VSU3 Member=Component R19_VSU3 (R19) 1K
+Added Member To Class: ClassName=VSU2 Member=Component TP1_VSU2 (TP1) SMD Test Point
+Added Member To Class: ClassName=VSU3 Member=Component TP1_VSU3 (TP1) SMD Test Point
+Added Member To Class: ClassName=VSU2 Member=Component TP2_VSU2 (TP2) SMD Test Point
+Added Member To Class: ClassName=VSU3 Member=Component TP2_VSU3 (TP2) SMD Test Point
+Added Member To Class: ClassName=VSU2 Member=Component TP3_VSU2 (TP3) SMD Test Point
+Added Member To Class: ClassName=VSU3 Member=Component TP3_VSU3 (TP3) SMD Test Point
+Added Member To Class: ClassName=VSU2 Member=Component U3_VSU2 (U3) OpAmp, LT1677
+Added Member To Class: ClassName=VSU3 Member=Component U3_VSU3 (U3) OpAmp, LT1677
