@@ -1,0 +1,142 @@
+Change Physical Footprint: Designator=C1 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C2 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C3 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C4 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C5 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C6 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C7 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C8 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C9 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C10 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C11 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C12 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C13 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C14 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C15 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C16 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C17_VSU1 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C17_VSU2 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C17_VSU3 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C18_VSU1 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C18_VSU2 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C18_VSU3 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C19_VSU1 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C19_VSU2 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C19_VSU3 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C20_VSU1 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C20_VSU2 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C20_VSU3 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C21_VSU1 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C21_VSU2 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C21_VSU3 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C22_VSU1 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C22_VSU2 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C22_VSU3 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C23 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C24 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=C25 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=D1 Old Footprint=SOD-323 New Footprint=SOD-323
+Change Physical Footprint: Designator=D2 Old Footprint=SOD-323 New Footprint=SOD-323
+Change Physical Footprint: Designator=D3 Old Footprint=SOD-323 New Footprint=SOD-323
+Change Physical Footprint: Designator=D4 Old Footprint=L0805 New Footprint=L0805
+Change Physical Footprint: Designator=D5 Old Footprint=L0805 New Footprint=L0805
+Change Physical Footprint: Designator=D6 Old Footprint=L0805 New Footprint=L0805
+Change Physical Footprint: Designator=D7 Old Footprint=CGRKM4001-HF New Footprint=CGRKM4001-HF
+Change Physical Footprint: Designator=D8 Old Footprint=CGRKM4001-HF New Footprint=CGRKM4001-HF
+Change Physical Footprint: Designator=D9 Old Footprint=CGRKM4001-HF New Footprint=CGRKM4001-HF
+Change Physical Footprint: Designator=D10 Old Footprint=L0805 New Footprint=L0805
+Change Physical Footprint: Designator=D11 Old Footprint=L0805 New Footprint=L0805
+Change Physical Footprint: Designator=D12 Old Footprint=L0805 New Footprint=L0805
+Change Physical Footprint: Designator=F1 Old Footprint=SCHURTER - 0031.7701.11 - FUSE HOLDER, PCB MOUNT New Footprint=SCHURTER - 0031.7701.11 - FUSE HOLDER, PCB MOUNT
+Change Physical Footprint: Designator=F2 Old Footprint=SCHURTER - 0031.7701.11 - FUSE HOLDER, PCB MOUNT New Footprint=SCHURTER - 0031.7701.11 - FUSE HOLDER, PCB MOUNT
+Change Physical Footprint: Designator=J1 Old Footprint=MOLEX_0705530001 New Footprint=MOLEX_0705530001
+Change Physical Footprint: Designator=J2 Old Footprint=MOLEX 0901200763 New Footprint=MOLEX 0901200763
+Change Physical Footprint: Designator=J3 Old Footprint=MOLEX 0901200763 New Footprint=MOLEX 0901200763
+Change Physical Footprint: Designator=J4 Old Footprint=D9 Connector New Footprint=D9 Connector
+Change Physical Footprint: Designator=J5 Old Footprint=Molex 0901200762 New Footprint=Molex 0901200762
+Change Physical Footprint: Designator=J6 Old Footprint=MOLEX 0901200763 New Footprint=MOLEX 0901200763
+Change Physical Footprint: Designator=J7 Old Footprint=STM32 Nucleo Footprint] New Footprint=STM32 Nucleo Footprint]
+Change Physical Footprint: Designator=J9 Old Footprint=Molex 105314 8 CON New Footprint=Molex 105314 8 CON
+Change Physical Footprint: Designator=J10 Old Footprint=Molex 105314 8 CON New Footprint=Molex 105314 8 CON
+Change Physical Footprint: Designator=J11 Old Footprint=MOLEX 105314 14 CON New Footprint=MOLEX 105314 14 CON
+Change Physical Footprint: Designator=J12 Old Footprint=MOLEX 105314 6 CON New Footprint=MOLEX 105314 6 CON
+Change Physical Footprint: Designator=J13_VSU1 Old Footprint=Right Angle Header 43650-0205(Primary) New Footprint=Right Angle Header 43650-0205(Primary)
+Change Physical Footprint: Designator=J13_VSU2 Old Footprint=RIGHT ANGLE HEADER 43650-0205(PRIMARY) New Footprint=Right Angle Header 43650-0205(Primary)
+Change Physical Footprint: Designator=J13_VSU3 Old Footprint=RIGHT ANGLE HEADER 43650-0205(PRIMARY) New Footprint=Right Angle Header 43650-0205(Primary)
+Change Physical Footprint: Designator=J14 Old Footprint=Molex 0901200762 New Footprint=Molex 0901200762
+Change Physical Footprint: Designator=Q1 Old Footprint=MOSFET DMG6968UDICT-ND New Footprint=MOSFET DMG6968UDICT-ND
+Change Physical Footprint: Designator=Q2 Old Footprint=MOSFET DMG6968UDICT-ND New Footprint=MOSFET DMG6968UDICT-ND
+Change Physical Footprint: Designator=Q3 Old Footprint=MOSFET DMG6968UDICT-ND New Footprint=MOSFET DMG6968UDICT-ND
+Change Physical Footprint: Designator=R1 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R2 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R3 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R4 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R5 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R6 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R7 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R8_VSU1 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R8_VSU2 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R8_VSU3 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R9_VSU1 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R9_VSU2 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R9_VSU3 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R10_VSU1 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R10_VSU2 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R10_VSU3 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R11_VSU1 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R11_VSU2 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R11_VSU3 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R12_VSU1 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R12_VSU2 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R12_VSU3 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R13_VSU1 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R13_VSU2 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R13_VSU3 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R14_VSU1 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R14_VSU2 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R14_VSU3 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R15_VSU1 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R15_VSU2 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R15_VSU3 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R16_VSU1 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R16_VSU2 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R16_VSU3 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R17_VSU1 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R17_VSU2 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R17_VSU3 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R18_VSU1 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R18_VSU2 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R18_VSU3 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R19_VSU1 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R19_VSU2 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R19_VSU3 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R20 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R21 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R22 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R23 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R24 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R25 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R26 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R27 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R28 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=R29 Old Footprint=R0805 New Footprint=R0805
+Change Physical Footprint: Designator=TP1_VSU1 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP1_VSU2 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP1_VSU3 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP2_VSU1 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP2_VSU2 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP2_VSU3 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP3_VSU1 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP3_VSU2 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP3_VSU3 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP4 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP5 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP6 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP7 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP8 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP9 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=U1 Old Footprint=LT1677IS8#TRPBF New Footprint=LT1677IS8#TRPBF
+Change Physical Footprint: Designator=U2 Old Footprint=DW20-L New Footprint=DW20-L
+Change Physical Footprint: Designator=U3_VSU1 Old Footprint=LT1677IS8#TRPBF New Footprint=LT1677IS8#TRPBF
+Change Physical Footprint: Designator=U3_VSU2 Old Footprint=LT1677IS8#TRPBF New Footprint=LT1677IS8#TRPBF
+Change Physical Footprint: Designator=U3_VSU3 Old Footprint=LT1677IS8#TRPBF New Footprint=LT1677IS8#TRPBF
