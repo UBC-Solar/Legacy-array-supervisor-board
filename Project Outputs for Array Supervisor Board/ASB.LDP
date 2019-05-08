@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\Anthony\MPPT\ASB.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=asb-plated.txt|DrillLayers=gtl,gp1,g1,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=asb-nonplated.txt|DrillLayers=gtl,gp1,g1,gbl

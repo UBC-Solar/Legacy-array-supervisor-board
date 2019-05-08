@@ -1,29 +1,14 @@
-Output: Gerber Files
-Type  : Gerber
-From  : Variant [[No Variations]] of Project [Array Supervisor Board.PrjPcb]
-   Generated File[ASB.GTO]
-   Generated File[ASB.GTP]
-   Generated File[ASB.GTS]
-   Generated File[ASB.GTL]
-   Generated File[ASB.GP1]
-   Generated File[ASB.G1]
-   Generated File[ASB.GBL]
-   Generated File[ASB.GBS]
-   Generated File[ASB.GBP]
-   Generated File[ASB.GBO]
-   Generated File[ASB.GM1]
-   Generated File[ASB.GM5]
-   Generated File[ASB.GKO]
-   Generated File[ASB.GPT]
-   Generated File[ASB.GPB]
-   Generated File[ASB.GD1]
-   Generated File[ASB.GG1]
-   Generated File[ASB.RUL]
-   Generated File[ASB.EXTREP]
-   Generated File[ASB.REP]
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Array Supervisor Board.PrjPcb]
+   Generated File[ASB-Plated.TXT]
+   Generated File[ASB-NonPlated.TXT]
+   Generated File[ASB.DRL]
+   Generated File[ASB.LDP]
+   Generated File[ASB.DRR]
 
 
-Files Generated   : 20
+Files Generated   : 5
 Documents Printed : 0
 
-Finished Output Generation At 9:03:31 AM On 2019-04-30
+Finished Output Generation At 5:25:33 PM On 5/7/2019

@@ -1,26 +1,24 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: ASB.GBR   2019-04-30  9:03:22 AM
+Gerber File Extension Report For: ASB.GBR   5/7/2019  5:18:05 PM
 ------------------------------------------------------------------------------------------
 
 
 ------------------------------------------------------------------------------------------
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
-.GTL                Top Layer                               
-.GPT                Top Pad Master                          
-.GTP                Top Paste                               
-.GP1                Int1 (GND)                              
-.GPB                Bottom Pad Master                       
-.G1                 Int2                                    
 .GTO                Top Overlay                             
-.GBL                Bottom Layer                            
+.GTP                Top Paste                               
 .GTS                Top Solder                              
+.GTL                Top Layer                               
+.GP1                Int1 (GND)                              
+.G1                 Int2                                    
+.GBL                Bottom Layer                            
 .GBS                Bottom Solder                           
 .GBP                Bottom Paste                            
 .GBO                Bottom Overlay                          
-.GKO                Keep-Out Layer                          
 .GM1                Mechanical 1                            
 .GM5                Mechanical 5                            
-.GD1                Drill Drawing                           
-.GG1                Drill Guide                             
+.GKO                Keep-Out Layer                          
+.GPT                Top Pad Master                          
+.GPB                Bottom Pad Master                       
 ------------------------------------------------------------------------------------------
