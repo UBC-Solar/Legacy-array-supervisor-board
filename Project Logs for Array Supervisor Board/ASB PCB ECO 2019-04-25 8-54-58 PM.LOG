@@ -1,0 +1,37 @@
+Change Physical Footprint: Designator=C2 Old Footprint=C0805 New Footprint=C0805
+Change Physical Footprint: Designator=D1 Old Footprint=SOD-323 New Footprint=SOD-323
+Change Physical Footprint: Designator=D2 Old Footprint=SOD-323 New Footprint=SOD-323
+Change Physical Footprint: Designator=D3 Old Footprint=SOD-323 New Footprint=SOD-323
+Change Physical Footprint: Designator=F1 Old Footprint=SCHURTER - 0031.7701.11 - FUSE HOLDER, PCB MOUNT New Footprint=SCHURTER - 0031.7701.11 - FUSE HOLDER, PCB MOUNT
+Change Physical Footprint: Designator=F2 Old Footprint=SCHURTER - 0031.7701.11 - FUSE HOLDER, PCB MOUNT New Footprint=SCHURTER - 0031.7701.11 - FUSE HOLDER, PCB MOUNT
+Change Physical Footprint: Designator=J1 Old Footprint=MOLEX_0705530001 New Footprint=MOLEX_0705530001
+Change Physical Footprint: Designator=J2 Old Footprint=MOLEX 0901200763 New Footprint=MOLEX 0901200763
+Change Physical Footprint: Designator=J3 Old Footprint=MOLEX 0901200763 New Footprint=MOLEX 0901200763
+Change Physical Footprint: Designator=J4 Old Footprint=D9 Connector New Footprint=D9 Connector
+Change Physical Footprint: Designator=J6 Old Footprint=MOLEX 0901200763 New Footprint=MOLEX 0901200763
+Change Physical Footprint: Designator=J7 Old Footprint=STM32 Nucleo Footprint] New Footprint=STM32 Nucleo Footprint]
+Change Physical Footprint: Designator=J9 Old Footprint=Molex 105314 8 CON New Footprint=Molex 105314 8 CON
+Change Physical Footprint: Designator=J10 Old Footprint=Molex 105314 8 CON New Footprint=Molex 105314 8 CON
+Change Physical Footprint: Designator=J11 Old Footprint=MOLEX 105314 14 CON New Footprint=MOLEX 105314 14 CON
+Change Physical Footprint: Designator=J12 Old Footprint=MOLEX 105314 6 CON New Footprint=MOLEX 105314 6 CON
+Change Physical Footprint: Designator=J13_VSU1 Old Footprint=Right Angle Header 43650-0205(Primary) New Footprint=Right Angle Header 43650-0205(Primary)
+Change Physical Footprint: Designator=J13_VSU2 Old Footprint=Right Angle Header 43650-0205(Primary) New Footprint=Right Angle Header 43650-0205(Primary)
+Change Physical Footprint: Designator=J13_VSU3 Old Footprint=Right Angle Header 43650-0205(Primary) New Footprint=Right Angle Header 43650-0205(Primary)
+Change Physical Footprint: Designator=Q1 Old Footprint=MOSFET DMG6968UDICT-ND New Footprint=MOSFET DMG6968UDICT-ND
+Change Physical Footprint: Designator=Q2 Old Footprint=MOSFET DMG6968UDICT-ND New Footprint=MOSFET DMG6968UDICT-ND
+Change Physical Footprint: Designator=Q3 Old Footprint=MOSFET DMG6968UDICT-ND New Footprint=MOSFET DMG6968UDICT-ND
+Change Physical Footprint: Designator=TP1_VSU1 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP1_VSU2 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP1_VSU3 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP2_VSU1 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP2_VSU2 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP2_VSU3 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP3_VSU1 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP3_VSU2 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP3_VSU3 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP4 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP5 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP6 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP7 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP8 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
+Change Physical Footprint: Designator=TP9 Old Footprint=5019 Keystone SMT Test Point New Footprint=5019 Keystone SMT Test Point
