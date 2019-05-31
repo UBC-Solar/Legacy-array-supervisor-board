@@ -1,0 +1,71 @@
+# Pseudocode
+
+main():
+  Initialize SPI1
+  Initialize ADC1
+  Initialize CAN
+  Enable Timer Interrupt # for CAN transmission
+  Enable GPIO Interrupt # for OC pins
+  Send CAN to MCN
+  Receive CAN acknowledge from MCN
+  
+  while (true):
+    check CAN error messages
+    if (CAN error):
+      shutdown contactors()
+      shutdown()
+    read from SPI1 (temps)
+    read from ADC1 (currents)
+    read from ADC1 (voltages)
+    # convert ADC values into voltages or whatever
+    temps = convert (temps)
+    currents = convert (currents)
+    voltages = convert (voltages)
+    for temp in temps:
+      if temp out of boundaries:
+        shutdown contactors()
+        shutdown()
+    for current in currents:
+      if current out of boundaries:
+        shutdown contactors()
+        shutdown()
+    for voltage in voltages:
+      if voltage out of boundaries:
+        shutdown contactors()
+        shutdown()
+    if CAN transmit flag:
+      transmit temperature + current + voltage to MCN
+      CAN transmit flag = 0
+ 
+ shutdown contactors():
+  GPIO write(contactors) on
+  
+ shutdown():
+  Disable interrupts
+  Clear temps/currents/voltages
+  Wait for CAN signal
+  Enable interrupts
+  
+timer isr():
+  CAN transmit flag = 1
+  acknowledge interrupt
+  
+GPIO_isr(): # for each OC pin
+  
+ 
+read from ADC1(currents, voltages):
+  for i in ADC Channels:
+    read ADC value from channel
+    if channels[i] is current: 
+      map channel to current index
+      currents[current index] = ADC value
+    else:
+      map channel to voltage index
+      voltages[voltage index] = ADC value
+ 
+read from SPI1(arr):
+  wait(10us)
+  transfer(channels[0])
+  for i in range(1, num_channels):
+    wait(10us)
+    arr[i - 1] = transfer(channels[i])
