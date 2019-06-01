@@ -1,0 +1,15 @@
+#include "stm32f10x.h"
+#include "stm32f10x_gpio.h"
+#include "stm32f10x_rcc.h"
+
+#define NUMBER_OF_ADC_CHANNELS 9
+
+const uint16_t ADC_CHANNELS[NUMBER_OF_ADC_CHANNELS] = {ADC_Channel_1, ADC_Channel_8, ADC_Channel_9, ADC_Channel_10, ADC_Channel_11, ADC_Channel_12, ADC_Channel_13, ADC_Channel_14, ADC_Channel_15};
+
+static uint16_t * adc_buffer;
+
+void PeripheralInit_ADC1_GPIO(void);
+void PeripheralInit_ADC1(void);
+void Configure_ADC_Channels(void);
+void PeripheralInit_DMA1(uint16_t * ADCBuf);
+double Get_Voltage(uint8_t channel); 

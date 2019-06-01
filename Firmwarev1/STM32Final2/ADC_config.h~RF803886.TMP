@@ -1,0 +1,54 @@
+#include "stm32f10x.h"
+#include "stm32f10x_gpio.h"
+#include "stm32f10x_rcc.h"
+
+#define NUMBER_OF_ADC_CHANNELS 9
+
+static uint16_t * adc_buffer;
+
+uint16_t Get_ADC_Converted_Value(uint8_t channel);
+void PeripheralInit_ADC1(void);
+void Configure_ADC_Channels(void);
+//void PeripheralInit_DMA1(uint16_t * ADCBuf);
+double Get_Voltage(uint8_t channel); 
+
+/*
+void PeripheralInit_DMA1(uint16_t * ADCBuf) {
+	RCC_AHBPeriphClockCmd(RCC_AHBPeriph_DMA1, ENABLE);
+	DMA_InitTypeDef  DMA_InitStructure;
+	DMA_DeInit(DMA1_Channel1);
+	//disable memory to memory: doing ADC to MEM
+	DMA_InitStructure.DMA_M2M = DMA_M2M_Disable;
+	//setting normal mode (non circular)
+	DMA_InitStructure.DMA_Mode = DMA_Mode_Normal;
+	//high priority
+	DMA_InitStructure.DMA_Priority = DMA_Priority_High;
+	//source and destination data size word=16bit
+	DMA_InitStructure.DMA_PeripheralDataSize = DMA_PeripheralDataSize_HalfWord;
+	DMA_InitStructure.DMA_MemoryDataSize = DMA_MemoryDataSize_HalfWord;
+	//automatic memory destination increment enable.
+	DMA_InitStructure.DMA_MemoryInc = DMA_MemoryInc_Enable;
+	//source address increment disable
+	DMA_InitStructure.DMA_PeripheralInc = DMA_PeripheralInc_Disable;
+	//Location assigned to peripheral register will be destination
+	DMA_InitStructure.DMA_DIR = DMA_DIR_PeripheralSRC;
+	//chunk of data to be transfered
+	DMA_InitStructure.DMA_BufferSize = NUMBER_OF_ADC_CHANNELS * 4;
+	//source and destination start addresses
+	DMA_InitStructure.DMA_PeripheralBaseAddr = (uint32_t) ADC_DR_DATA;
+	DMA_InitStructure.DMA_MemoryBaseAddr = (uint32_t) ADCBuf;
+	//send values to DMA registers
+	DMA_Init(DMA1_Channel1, &DMA_InitStructure);
+	// Enable DMA1 Channel Transfer Complete interrupt
+	DMA_ITConfig(DMA1_Channel1, DMA_IT_TC, ENABLE);
+	DMA_Cmd(DMA1_Channel1, ENABLE); //Enable the DMA1 - Channel1
+	NVIC_InitTypeDef NVIC_InitStructure;
+	//Enable DMA1 channel IRQ Channel 
+	
+	NVIC_InitStructure.NVIC_IRQChannel = DMA1_Channel1_IRQn;
+	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
+	NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;
+	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+	NVIC_Init(&NVIC_InitStructure);
+}
+*/

@@ -2,30 +2,25 @@
 
 const uint16_t SPI_ADC_CHANNELS[NUMBER_OF_SPI_ADC_CHANNELS] = {0x0, 0x1, 0x2, 0x3, 0x4, 0x5, 0x6, 0x7, 0x8, 0x9, 0xA};
 
-uint8_t get_and_check_temperature_readings(uint16_t * buffer) {
+/*
+Measures the values of all SPI ADC channels and writes them to buffer
+*/
+void Get_Temperature_Readings(uint16_t * buffer) {
 	MicrosecondDelay(10);
-	transfer_16b_SPI1_Master(SPI_ADC_CHANNELS[0] << SPI_ADC_OFFSET | SPI_ADC_MASK); // transfer first byte to start conversion
+	Transfer_16b_SPI1_Master(SPI_ADC_CHANNELS[0] << SPI_ADC_OFFSET | SPI_ADC_MASK); // transfer first byte to start conversion
 	for (uint8_t i = 1; i <= NUMBER_OF_SPI_ADC_CHANNELS; i++) {
 		MicrosecondDelay(10);
-		buffer[i - 1] = transfer_16b_SPI1_Master(SPI_ADC_CHANNELS[i] << SPI_ADC_OFFSET | SPI_ADC_MASK); //read current value while transferring next value due to how ADC behaves
-		if (buffer[i-1] > TEMPERATURE_THRESHOLD) {
-			//do something
-			return 1;
-		}
-	}
-	return 0;
-}
-
-void temperature_readings_SPI1(uint16_t * buffer) {
-	MicrosecondDelay(10);
-	transfer_16b_SPI1_Master(SPI_ADC_CHANNELS[0] << SPI_ADC_OFFSET | SPI_ADC_MASK); // transfer first byte to start conversion
-	for (uint8_t i = 1; i <= NUMBER_OF_SPI_ADC_CHANNELS; i++) {
-		MicrosecondDelay(10);
-		buffer[i - 1] = transfer_16b_SPI1_Master(SPI_ADC_CHANNELS[i] << SPI_ADC_OFFSET | SPI_ADC_MASK); //read current value while transferring next value due to how ADC behaves
+		buffer[i - 1] = Transfer_16b_SPI1_Master(SPI_ADC_CHANNELS[i] << SPI_ADC_OFFSET | SPI_ADC_MASK); //read current value while transferring next value due to how ADC behaves
 	}
 }
 
-uint16_t transfer_16b_SPI1_Master(uint16_t output) {
+/*
+Transfers 16-bit output to device connected on SPI1
+output is 16-bits and a valid SPI command for the 
+connected device
+Returns the 16-bit response from the SPI device
+*/
+uint16_t Transfer_16b_SPI1_Master(uint16_t output) {
 	GPIO_ResetBits(GPIOA, GPIO_Pin_4);
 	while (!SPI_I2S_GetFlagStatus(SPI1, SPI_I2S_FLAG_TXE));
 	SPI_I2S_SendData(SPI1, output);
@@ -34,6 +29,9 @@ uint16_t transfer_16b_SPI1_Master(uint16_t output) {
 	return ret;
 }
 
+/*
+Initializes SPI1 Peripheral
+*/
 void PeripheralInit_SPI1(void) {
 	GPIO_InitTypeDef GPIO_InitStruct;
 	SPI_InitTypeDef SPI_InitStruct;
@@ -88,6 +86,9 @@ void PeripheralInit_SPI1(void) {
   GPIO_Init(GPIOA, &GPIO_InitStruct);
 }
 
+/*
+Delays for counts number of microseconds
+*/
 void MicrosecondDelay(uint32_t counts)
 {
 	uint32_t i;

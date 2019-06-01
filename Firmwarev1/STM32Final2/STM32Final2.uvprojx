@@ -405,6 +405,16 @@
               <FileType>5</FileType>
               <FilePath>.\SPI_config.h</FilePath>
             </File>
+            <File>
+              <FileName>circular_queue.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\circular_queue.c</FilePath>
+            </File>
+            <File>
+              <FileName>circular_queue.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\circular_queue.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

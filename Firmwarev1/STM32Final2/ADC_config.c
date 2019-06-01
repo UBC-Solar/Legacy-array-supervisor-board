@@ -1,36 +1,32 @@
 #include "ADC_config.h"
 
-const uint16_t ADC_Channels[NUMBER_OF_ADC_CHANNELS] = {ADC_Channel_1, ADC_Channel_8, ADC_Channel_9, ADC_Channel_10, ADC_Channel_11, ADC_Channel_12, ADC_Channel_13, ADC_Channel_14, ADC_Channel_15};
-const uint16_t ADC_Mapping[NUMBER_OF_ADC_CHANNELS] = {CURRENT, CURRENT, VOLTAGE, CURRENT, CURRENT, CURRENT, CURRENT, VOLTAGE, VOLTAGE};
+const uint16_t ADC_Channels[NUMBER_OF_ADC_CHANNELS] = {ADC_Channel_15, ADC_Channel_9, ADC_Channel_14, ADC_Channel_1, ADC_Channel_8, ADC_Channel_11, ADC_Channel_12, ADC_Channel_13, ADC_Channel_10};
+const uint16_t ADC_Mapping[NUMBER_OF_ADC_CHANNELS] = {VOLTAGE, VOLTAGE, VOLTAGE, CURRENT, CURRENT, CURRENT, CURRENT, CURRENT, CURRENT};
 const uint16_t Voltage_Channels[NUMBER_OF_VOLTAGE_ADC_CHANNELS] = {ADC_Channel_15, ADC_Channel_9, ADC_Channel_14};
-const uint16_t Current_Channels[NUMBER_OF_CURRENT_ADC_CHANNELS] = {ADC_Channel_1, ADC_Channel_8, ADC_Channel_11, ADC_Channel_13, ADC_Channel_12, ADC_Channel_10};
+const uint16_t Current_Channels[NUMBER_OF_CURRENT_ADC_CHANNELS] = {ADC_Channel_1, ADC_Channel_8, ADC_Channel_11, ADC_Channel_12, ADC_Channel_13, ADC_Channel_10};
 
-uint8_t get_and_check_current_and_voltage_readings(uint16_t * buffer) {
+/*
+Measures values of current and voltage sensors and writes them to
+appropriate arrays
+*/
+void Get_Current_Voltage_Readings(uint16_t * currents, uint16_t * voltages) {
+	uint8_t value;
+	uint8_t voltage_counter = 0;
+	uint8_t current_counter = 0;
 	for (uint8_t i = 0; i < NUMBER_OF_ADC_CHANNELS; i++) {
-		buffer[i] = Get_ADC_Converted_Value(ADC_Channels[i]);
-		if (ADC_Mapping[i] == CURRENT) {
-			if (buffer[i] > CURRENT_THRESHOLD) {
-				//do something 
-				return CURRENT;
-			}
-		} else {
-			if (buffer[i] > VOLTAGE_THRESHOLD) {
-				//do something
-				return VOLTAGE;
-			}
+		value = Get_ADC_Converted_Value(ADC_Channels[i]);
+		if (ADC_Mapping[i] == VOLTAGE) {
+			voltages[voltage_counter] = value;
+			voltage_counter++;
+		} else if (ADC_Mapping[i] == CURRENT) {
+			currents[current_counter] = value;
+			current_counter++;
 		}
-	}
-	return 0;
-}
-
-void get_adc_readings(uint16_t * buffer) {
-	for (uint8_t i = 0; i < NUMBER_OF_ADC_CHANNELS; i++) {
-		buffer[i] = Get_ADC_Converted_Value(ADC_Channels[i]);
 	}
 }
 
 /*
-Converts value from ADC channel
+Gets the value converted from a single ADC channel
 */
 uint16_t Get_ADC_Converted_Value(uint8_t channel) {
 	ADC_RegularChannelConfig(ADC1, channel, 1, ADC_SampleTime_7Cycles5);
@@ -39,6 +35,9 @@ uint16_t Get_ADC_Converted_Value(uint8_t channel) {
 	return ADC_GetConversionValue(ADC1);
 }
 
+/*
+Configures ADC channels for use
+*/
 void Configure_ADC_Channels(void) {
 	// Configure all channels with sample time, channel, rank
 	for (uint8_t i = 0; i < NUMBER_OF_ADC_CHANNELS; i++) {
@@ -46,6 +45,9 @@ void Configure_ADC_Channels(void) {
 	}
 }
 
+/*
+Initializes ADC peripherals
+*/
 void PeripheralInit_ADC1(void) {
 	ADC_DeInit(ADC1); //deinitialize to reconfigure
 	ADC_InitTypeDef ADC_InitStruct;

@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\STM32Final2.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\STM32Final2.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060528: Last Updated: Thu May 30 01:05:01 2019
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060528: Last Updated: Sat Jun 01 03:21:16 2019
 <BR><P>
 <H3>Maximum Stack Usage =        108 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -655,11 +655,11 @@ Global Symbols
 <LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_GetFlagStatus
 <LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_GetConversionValue
 </UL>
-<BR>[Called By]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_and_check_current_and_voltage_readings
+<BR>[Called By]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_current_and_voltage_readings
 </UL>
 
 <P><STRONG><a name="[89]"></a>MicrosecondDelay</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, spi_config.o(i.MicrosecondDelay))
-<BR><BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_and_check_temperature_readings
+<BR><BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_temperature_readings
 </UL>
 
 <P><STRONG><a name="[6a]"></a>PeripheralInit_ADC1</STRONG> (Thumb, 192 bytes, Stack size 32 bytes, adc_config.o(i.PeripheralInit_ADC1))
@@ -748,16 +748,16 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(.text)
 </UL>
-<P><STRONG><a name="[87]"></a>get_and_check_current_and_voltage_readings</STRONG> (Thumb, 76 bytes, Stack size 16 bytes, adc_config.o(i.get_and_check_current_and_voltage_readings))
-<BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = get_and_check_current_and_voltage_readings &rArr; Get_ADC_Converted_Value &rArr; ADC_RegularChannelConfig
+<P><STRONG><a name="[87]"></a>get_current_and_voltage_readings</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, adc_config.o(i.get_current_and_voltage_readings))
+<BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = get_current_and_voltage_readings &rArr; Get_ADC_Converted_Value &rArr; ADC_RegularChannelConfig
 </UL>
 <BR>[Calls]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_ADC_Converted_Value
 </UL>
 <BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[88]"></a>get_and_check_temperature_readings</STRONG> (Thumb, 92 bytes, Stack size 16 bytes, spi_config.o(i.get_and_check_temperature_readings))
-<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = get_and_check_temperature_readings &rArr; transfer_16b_SPI1_Master
+<P><STRONG><a name="[88]"></a>get_temperature_readings</STRONG> (Thumb, 74 bytes, Stack size 16 bytes, spi_config.o(i.get_temperature_readings))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = get_temperature_readings &rArr; transfer_16b_SPI1_Master
 </UL>
 <BR>[Calls]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;transfer_16b_SPI1_Master
 <LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MicrosecondDelay
@@ -765,12 +765,12 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[50]"></a>main</STRONG> (Thumb, 32 bytes, Stack size 48 bytes, main.o(i.main))
+<P><STRONG><a name="[50]"></a>main</STRONG> (Thumb, 30 bytes, Stack size 48 bytes, main.o(i.main))
 <BR><BR>[Stack]<UL><LI>Max Depth = 108<LI>Call Chain = main &rArr; PeripheralInit_ADC1 &rArr; Configure_ADC_Channels &rArr; ADC_RegularChannelConfig
 </UL>
-<BR>[Calls]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_and_check_temperature_readings
+<BR>[Calls]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_temperature_readings
 <LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_SPI1
-<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_and_check_current_and_voltage_readings
+<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_current_and_voltage_readings
 <LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_ADC1
 </UL>
 <BR>[Called By]<UL><LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
@@ -784,7 +784,7 @@ Global Symbols
 <LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_GetFlagStatus
 <LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ResetBits
 </UL>
-<BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_and_check_temperature_readings
+<BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_temperature_readings
 </UL>
 <P>
 <H3>

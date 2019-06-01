@@ -1,0 +1,42 @@
+#include "stm32f10x.h"
+#include "stm32f10x_gpio.h"
+#include "stm32f10x_rcc.h"
+
+#define SPI_ADC_MASK  0x0C00
+#define SPI_ADC_OFFSET 12
+#define NUMBER_OF_SPI_ADC_CHANNELS 11
+#define TEMPERATURE_THRESHOLD 0xFF00
+
+const uint16_t SPI_ADC_CHANNELS[NUMBER_OF_SPI_ADC_CHANNELS] = {0x0, 0x1, 0x2, 0x3, 0x4, 0x5, 0x6, 0x7, 0x8, 0x9, 0xA};
+
+static uint16_t * spi_buffer;
+
+/*
+Does a full scan of all connected temperature sensors on ADC over SPI
+and writes it to temp_buffer
+temp_buffer is at least SPI_ADC_CHANNEL_NUMBER long
+*/
+void temperature_readings_SPI1(void); 
+
+/*
+Initializes SPI1 Peripheral
+temp_buffer points to buffer to store temperatures read
+*/
+void PeripheralInit_SPI1(uint16_t * temp_buffer);
+
+/*
+Transfers 16-bit output to device connected on SPI1
+output is 16-bits and a valid SPI command for the 
+connected device
+*/
+uint16_t transfer_16b_SPI1_Master(uint16_t output);
+
+/*
+Checks if last read temperatures are within bounds
+*/
+uint8_t check_temperature_readings(void);
+
+/*
+
+*/
+void MicrosecondDelay(uint32_t counts);

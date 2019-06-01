@@ -1,0 +1,11 @@
+#include "stm32f10x.h"
+#include "stm32f10x_gpio.h"
+#include "stm32f10x_rcc.h"
+
+void temperature_readings_SPI1(uint16_t * temp_buffer);
+void PeripheralInit_SPI1_Master(void);
+void PeripheralInit_SPI1_GPIO(void);
+uint16_t transfer_16b_SPI1_Master(uint16_t output);
+void MicrosecondDelay(uint32_t counts);
+
+#define ADC_CHANNELS = [0x0, 0x1, 0x2, 0x3, 0x4, 0x5, 0x6, 0x7, 0x8, 0x9 , 0xA];
