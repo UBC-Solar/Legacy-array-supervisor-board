@@ -17,3 +17,8 @@
 .\objects\main.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x_spi.h
 .\objects\main.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h
 .\objects\main.o: SPI_config.h
+.\objects\main.o: utils.h
+.\objects\main.o: ADC_config.h
+.\objects\main.o: SPI_config.h
+.\objects\main.o: .\Peripherals\CAN\CAN.h
+.\objects\main.o: .\Peripherals\CAN\CAN.h

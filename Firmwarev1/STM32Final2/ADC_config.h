@@ -19,6 +19,8 @@ void Get_Current_Voltage_Readings(uint16_t * currents, uint16_t * voltages);
 
 /*
 Gets the value converted from a single ADC channel
+Parameters: Channel to read from
+Returns: 12-bit value read from ADC 
 */
 uint16_t Get_ADC_Converted_Value(uint8_t channel);
 

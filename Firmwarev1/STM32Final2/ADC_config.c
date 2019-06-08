@@ -10,7 +10,7 @@ Measures values of current and voltage sensors and writes them to
 appropriate arrays
 */
 void Get_Current_Voltage_Readings(uint16_t * currents, uint16_t * voltages) {
-	uint8_t value;
+	uint16_t value;
 	uint8_t voltage_counter = 0;
 	uint8_t current_counter = 0;
 	for (uint8_t i = 0; i < NUMBER_OF_ADC_CHANNELS; i++) {
@@ -27,6 +27,8 @@ void Get_Current_Voltage_Readings(uint16_t * currents, uint16_t * voltages) {
 
 /*
 Gets the value converted from a single ADC channel
+Parameters: Channel to read from
+Returns: 12-bit value read from ADC 
 */
 uint16_t Get_ADC_Converted_Value(uint8_t channel) {
 	ADC_RegularChannelConfig(ADC1, channel, 1, ADC_SampleTime_7Cycles5);

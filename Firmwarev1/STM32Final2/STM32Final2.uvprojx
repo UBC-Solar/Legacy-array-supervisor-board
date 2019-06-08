@@ -336,7 +336,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath></IncludePath>
+              <IncludePath>.\Peripherals\CAN</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -406,14 +406,19 @@
               <FilePath>.\SPI_config.h</FilePath>
             </File>
             <File>
-              <FileName>circular_queue.c</FileName>
+              <FileName>utils.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\circular_queue.c</FilePath>
+              <FilePath>.\utils.c</FilePath>
             </File>
             <File>
-              <FileName>circular_queue.h</FileName>
+              <FileName>utils.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\circular_queue.h</FilePath>
+              <FilePath>.\utils.h</FilePath>
+            </File>
+            <File>
+              <FileName>CAN.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Peripherals\CAN\CAN.c</FilePath>
             </File>
           </Files>
         </Group>

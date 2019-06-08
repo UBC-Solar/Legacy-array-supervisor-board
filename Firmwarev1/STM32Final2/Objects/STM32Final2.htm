@@ -3,9 +3,9 @@
 <title>Static Call Graph - [.\Objects\STM32Final2.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\STM32Final2.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060528: Last Updated: Sat Jun 01 03:21:16 2019
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060528: Last Updated: Sat Jun 01 14:57:38 2019
 <BR><P>
-<H3>Maximum Stack Usage =        108 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
+<H3>Maximum Stack Usage =        156 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
 __rt_entry_main &rArr; main &rArr; PeripheralInit_ADC1 &rArr; Configure_ADC_Channels &rArr; ADC_RegularChannelConfig
 <P>
@@ -117,118 +117,124 @@ Global Symbols
 <BR><BR>[Calls]<UL><LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry
 </UL>
 
-<P><STRONG><a name="[8f]"></a>__scatterload_rt2_thumb_only</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+<P><STRONG><a name="[97]"></a>__scatterload_rt2_thumb_only</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
 
-<P><STRONG><a name="[90]"></a>__scatterload_null</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+<P><STRONG><a name="[98]"></a>__scatterload_null</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
 
-<P><STRONG><a name="[91]"></a>__scatterload_zeroinit</STRONG> (Thumb, 28 bytes, Stack size unknown bytes, __scatter_zi.o(!!handler_zi), UNUSED)
-
-<P><STRONG><a name="[4e]"></a>__rt_lib_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit.o(.ARM.Collect$$libinit$$00000000))
-<BR><BR>[Called By]<UL><LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_li
+<P><STRONG><a name="[4b]"></a>__scatterload_copy</STRONG> (Thumb, 26 bytes, Stack size unknown bytes, __scatter_copy.o(!!handler_copy), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_copy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_copy
 </UL>
 
-<P><STRONG><a name="[92]"></a>__rt_lib_init_alloca_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002E))
+<P><STRONG><a name="[99]"></a>__scatterload_zeroinit</STRONG> (Thumb, 28 bytes, Stack size unknown bytes, __scatter_zi.o(!!handler_zi), UNUSED)
 
-<P><STRONG><a name="[93]"></a>__rt_lib_init_argv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002C))
-
-<P><STRONG><a name="[94]"></a>__rt_lib_init_atexit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001B))
-
-<P><STRONG><a name="[95]"></a>__rt_lib_init_clock_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000021))
-
-<P><STRONG><a name="[96]"></a>__rt_lib_init_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000032))
-
-<P><STRONG><a name="[97]"></a>__rt_lib_init_exceptions_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000030))
-
-<P><STRONG><a name="[98]"></a>__rt_lib_init_fp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000002))
-
-<P><STRONG><a name="[99]"></a>__rt_lib_init_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001F))
-
-<P><STRONG><a name="[9a]"></a>__rt_lib_init_getenv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000023))
-
-<P><STRONG><a name="[9b]"></a>__rt_lib_init_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000A))
-
-<P><STRONG><a name="[9c]"></a>__rt_lib_init_lc_collate_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000011))
-
-<P><STRONG><a name="[9d]"></a>__rt_lib_init_lc_ctype_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000013))
-
-<P><STRONG><a name="[9e]"></a>__rt_lib_init_lc_monetary_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000015))
-
-<P><STRONG><a name="[9f]"></a>__rt_lib_init_lc_numeric_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000017))
-
-<P><STRONG><a name="[a0]"></a>__rt_lib_init_lc_time_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000019))
-
-<P><STRONG><a name="[a1]"></a>__rt_lib_init_preinit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000004))
-
-<P><STRONG><a name="[a2]"></a>__rt_lib_init_rand_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000E))
-
-<P><STRONG><a name="[a3]"></a>__rt_lib_init_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000033))
-
-<P><STRONG><a name="[a4]"></a>__rt_lib_init_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001D))
-
-<P><STRONG><a name="[a5]"></a>__rt_lib_init_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000025))
-
-<P><STRONG><a name="[a6]"></a>__rt_lib_init_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000C))
-
-<P><STRONG><a name="[53]"></a>__rt_lib_shutdown</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown.o(.ARM.Collect$$libshutdown$$00000000))
-<BR><BR>[Called By]<UL><LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit_ls
+<P><STRONG><a name="[4f]"></a>__rt_lib_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit.o(.ARM.Collect$$libinit$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_li
 </UL>
 
-<P><STRONG><a name="[a7]"></a>__rt_lib_shutdown_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000002))
+<P><STRONG><a name="[9a]"></a>__rt_lib_init_alloca_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002E))
 
-<P><STRONG><a name="[a8]"></a>__rt_lib_shutdown_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000007))
+<P><STRONG><a name="[9b]"></a>__rt_lib_init_argv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002C))
 
-<P><STRONG><a name="[a9]"></a>__rt_lib_shutdown_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000F))
+<P><STRONG><a name="[9c]"></a>__rt_lib_init_atexit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001B))
 
-<P><STRONG><a name="[aa]"></a>__rt_lib_shutdown_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000010))
+<P><STRONG><a name="[9d]"></a>__rt_lib_init_clock_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000021))
 
-<P><STRONG><a name="[ab]"></a>__rt_lib_shutdown_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000A))
+<P><STRONG><a name="[9e]"></a>__rt_lib_init_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000032))
 
-<P><STRONG><a name="[ac]"></a>__rt_lib_shutdown_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000004))
+<P><STRONG><a name="[9f]"></a>__rt_lib_init_exceptions_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000030))
 
-<P><STRONG><a name="[ad]"></a>__rt_lib_shutdown_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C))
+<P><STRONG><a name="[a0]"></a>__rt_lib_init_fp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000002))
+
+<P><STRONG><a name="[a1]"></a>__rt_lib_init_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001F))
+
+<P><STRONG><a name="[a2]"></a>__rt_lib_init_getenv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000023))
+
+<P><STRONG><a name="[a3]"></a>__rt_lib_init_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000A))
+
+<P><STRONG><a name="[a4]"></a>__rt_lib_init_lc_collate_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000011))
+
+<P><STRONG><a name="[a5]"></a>__rt_lib_init_lc_ctype_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000013))
+
+<P><STRONG><a name="[a6]"></a>__rt_lib_init_lc_monetary_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000015))
+
+<P><STRONG><a name="[a7]"></a>__rt_lib_init_lc_numeric_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000017))
+
+<P><STRONG><a name="[a8]"></a>__rt_lib_init_lc_time_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000019))
+
+<P><STRONG><a name="[a9]"></a>__rt_lib_init_preinit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000004))
+
+<P><STRONG><a name="[aa]"></a>__rt_lib_init_rand_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000E))
+
+<P><STRONG><a name="[ab]"></a>__rt_lib_init_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000033))
+
+<P><STRONG><a name="[ac]"></a>__rt_lib_init_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001D))
+
+<P><STRONG><a name="[ad]"></a>__rt_lib_init_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000025))
+
+<P><STRONG><a name="[ae]"></a>__rt_lib_init_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000C))
+
+<P><STRONG><a name="[54]"></a>__rt_lib_shutdown</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown.o(.ARM.Collect$$libshutdown$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit_ls
+</UL>
+
+<P><STRONG><a name="[af]"></a>__rt_lib_shutdown_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000002))
+
+<P><STRONG><a name="[b0]"></a>__rt_lib_shutdown_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000007))
+
+<P><STRONG><a name="[b1]"></a>__rt_lib_shutdown_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000F))
+
+<P><STRONG><a name="[b2]"></a>__rt_lib_shutdown_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000010))
+
+<P><STRONG><a name="[b3]"></a>__rt_lib_shutdown_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000A))
+
+<P><STRONG><a name="[b4]"></a>__rt_lib_shutdown_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000004))
+
+<P><STRONG><a name="[b5]"></a>__rt_lib_shutdown_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C))
 
 <P><STRONG><a name="[49]"></a>__rt_entry</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry.o(.ARM.Collect$$rtentry$$00000000))
 <BR><BR>[Called By]<UL><LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main
 <LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_rt2
 </UL>
 
-<P><STRONG><a name="[ae]"></a>__rt_entry_presh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000002))
+<P><STRONG><a name="[b6]"></a>__rt_entry_presh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000002))
 
-<P><STRONG><a name="[4b]"></a>__rt_entry_sh</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry4.o(.ARM.Collect$$rtentry$$00000004))
+<P><STRONG><a name="[4c]"></a>__rt_entry_sh</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry4.o(.ARM.Collect$$rtentry$$00000004))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
 <LI>Call Chain = __rt_entry_sh &rArr; __user_setup_stackheap
 </UL>
-<BR>[Calls]<UL><LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
+<BR>[Calls]<UL><LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
 </UL>
 
-<P><STRONG><a name="[4d]"></a>__rt_entry_li</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000A))
-<BR><BR>[Calls]<UL><LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init
+<P><STRONG><a name="[4e]"></a>__rt_entry_li</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000A))
+<BR><BR>[Calls]<UL><LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init
 </UL>
 
-<P><STRONG><a name="[af]"></a>__rt_entry_postsh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000009))
+<P><STRONG><a name="[b7]"></a>__rt_entry_postsh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000009))
 
-<P><STRONG><a name="[4f]"></a>__rt_entry_main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000D))
-<BR><BR>[Stack]<UL><LI>Max Depth = 108 + Unknown Stack Size
+<P><STRONG><a name="[50]"></a>__rt_entry_main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000D))
+<BR><BR>[Stack]<UL><LI>Max Depth = 156 + Unknown Stack Size
 <LI>Call Chain = __rt_entry_main &rArr; main &rArr; PeripheralInit_ADC1 &rArr; Configure_ADC_Channels &rArr; ADC_RegularChannelConfig
 </UL>
-<BR>[Calls]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
-<LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
+<BR>[Calls]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
 </UL>
 
-<P><STRONG><a name="[b0]"></a>__rt_entry_postli_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000C))
+<P><STRONG><a name="[b8]"></a>__rt_entry_postli_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000C))
 
-<P><STRONG><a name="[57]"></a>__rt_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit.o(.ARM.Collect$$rtexit$$00000000))
-<BR><BR>[Called By]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
+<P><STRONG><a name="[58]"></a>__rt_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit.o(.ARM.Collect$$rtexit$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
 </UL>
 
-<P><STRONG><a name="[52]"></a>__rt_exit_ls</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000003))
-<BR><BR>[Calls]<UL><LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_shutdown
+<P><STRONG><a name="[53]"></a>__rt_exit_ls</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000003))
+<BR><BR>[Calls]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_shutdown
 </UL>
 
-<P><STRONG><a name="[b1]"></a>__rt_exit_prels_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000002))
+<P><STRONG><a name="[b9]"></a>__rt_exit_prels_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000002))
 
-<P><STRONG><a name="[54]"></a>__rt_exit_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000004))
-<BR><BR>[Calls]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_sys_exit
+<P><STRONG><a name="[55]"></a>__rt_exit_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000004))
+<BR><BR>[Calls]<UL><LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_sys_exit
 </UL>
 
 <P><STRONG><a name="[45]"></a>Reset_Handler</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, startup_stm32f10x_md.o(.text))
@@ -406,385 +412,444 @@ Global Symbols
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
 </UL>
 <P><STRONG><a name="[47]"></a>__user_initial_stackheap</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, startup_stm32f10x_md.o(.text))
-<BR><BR>[Called By]<UL><LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
+<BR><BR>[Called By]<UL><LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
 </UL>
 
-<P><STRONG><a name="[82]"></a>__aeabi_memclr4</STRONG> (Thumb, 0 bytes, Stack size 4 bytes, rt_memclr_w.o(.text))
+<P><STRONG><a name="[8c]"></a>__aeabi_memclr4</STRONG> (Thumb, 0 bytes, Stack size 4 bytes, rt_memclr_w.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = __aeabi_memclr4
 </UL>
-<BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Initialize
-<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Control
+<BR>[Called By]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Initialize
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Control
 </UL>
 
-<P><STRONG><a name="[b2]"></a>__aeabi_memclr8</STRONG> (Thumb, 0 bytes, Stack size 4 bytes, rt_memclr_w.o(.text), UNUSED)
+<P><STRONG><a name="[ba]"></a>__aeabi_memclr8</STRONG> (Thumb, 0 bytes, Stack size 4 bytes, rt_memclr_w.o(.text), UNUSED)
 
-<P><STRONG><a name="[b3]"></a>__rt_memclr_w</STRONG> (Thumb, 78 bytes, Stack size 4 bytes, rt_memclr_w.o(.text), UNUSED)
+<P><STRONG><a name="[bb]"></a>__rt_memclr_w</STRONG> (Thumb, 78 bytes, Stack size 4 bytes, rt_memclr_w.o(.text), UNUSED)
 
-<P><STRONG><a name="[b4]"></a>_memset_w</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rt_memclr_w.o(.text), UNUSED)
+<P><STRONG><a name="[bc]"></a>_memset_w</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rt_memclr_w.o(.text), UNUSED)
 
-<P><STRONG><a name="[b5]"></a>__use_two_region_memory</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+<P><STRONG><a name="[bd]"></a>__use_two_region_memory</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
 
-<P><STRONG><a name="[b6]"></a>__rt_heap_escrow$2region</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+<P><STRONG><a name="[be]"></a>__rt_heap_escrow$2region</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
 
-<P><STRONG><a name="[b7]"></a>__rt_heap_expand$2region</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+<P><STRONG><a name="[bf]"></a>__rt_heap_expand$2region</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
 
-<P><STRONG><a name="[4c]"></a>__user_setup_stackheap</STRONG> (Thumb, 74 bytes, Stack size 8 bytes, sys_stackheap_outer.o(.text))
+<P><STRONG><a name="[4d]"></a>__user_setup_stackheap</STRONG> (Thumb, 74 bytes, Stack size 8 bytes, sys_stackheap_outer.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
 <LI>Call Chain = __user_setup_stackheap
 </UL>
-<BR>[Calls]<UL><LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_perproc_libspace
-<LI><a href="#[47]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_initial_stackheap
+<BR>[Calls]<UL><LI><a href="#[47]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_initial_stackheap
+<LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_perproc_libspace
 </UL>
-<BR>[Called By]<UL><LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_sh
+<BR>[Called By]<UL><LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_sh
 </UL>
 
-<P><STRONG><a name="[51]"></a>exit</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, exit.o(.text))
+<P><STRONG><a name="[52]"></a>exit</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, exit.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
 <LI>Call Chain = exit
 </UL>
-<BR>[Calls]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit
+<BR>[Calls]<UL><LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit
 </UL>
-<BR>[Called By]<UL><LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
-</UL>
-
-<P><STRONG><a name="[b8]"></a>__user_libspace</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
-
-<P><STRONG><a name="[56]"></a>__user_perproc_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text))
-<BR><BR>[Called By]<UL><LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
+<BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
 </UL>
 
-<P><STRONG><a name="[b9]"></a>__user_perthread_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
+<P><STRONG><a name="[c0]"></a>__user_libspace</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
 
-<P><STRONG><a name="[55]"></a>_sys_exit</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, sys_exit.o(.text))
-<BR><BR>[Called By]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit_exit
+<P><STRONG><a name="[57]"></a>__user_perproc_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
 </UL>
 
-<P><STRONG><a name="[ba]"></a>__I$use$semihosting</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
+<P><STRONG><a name="[c1]"></a>__user_perthread_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
 
-<P><STRONG><a name="[bb]"></a>__use_no_semihosting_swi</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
-
-<P><STRONG><a name="[6d]"></a>ADC_Cmd</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, stm32f10x_adc.o(i.ADC_Cmd))
-<BR><BR>[Called By]<UL><LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_ADC1
+<P><STRONG><a name="[56]"></a>_sys_exit</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, sys_exit.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit_exit
 </UL>
 
-<P><STRONG><a name="[bc]"></a>__semihosting_library_function</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, indicate_semi.o(.text), UNUSED)
+<P><STRONG><a name="[c2]"></a>__I$use$semihosting</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
 
-<P><STRONG><a name="[58]"></a>ADC_DeInit</STRONG> (Thumb, 78 bytes, Stack size 8 bytes, stm32f10x_adc.o(i.ADC_DeInit))
+<P><STRONG><a name="[c3]"></a>__use_no_semihosting_swi</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
+
+<P><STRONG><a name="[76]"></a>ADC_Cmd</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, stm32f10x_adc.o(i.ADC_Cmd))
+<BR><BR>[Called By]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_ADC1
+</UL>
+
+<P><STRONG><a name="[c4]"></a>__semihosting_library_function</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, indicate_semi.o(.text), UNUSED)
+
+<P><STRONG><a name="[59]"></a>ADC_DeInit</STRONG> (Thumb, 78 bytes, Stack size 8 bytes, stm32f10x_adc.o(i.ADC_DeInit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = ADC_DeInit
 </UL>
-<BR>[Calls]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphResetCmd
+<BR>[Calls]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphResetCmd
 </UL>
-<BR>[Called By]<UL><LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_ADC1
-</UL>
-
-<P><STRONG><a name="[71]"></a>ADC_GetCalibrationStatus</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f10x_adc.o(i.ADC_GetCalibrationStatus))
-<BR><BR>[Called By]<UL><LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_ADC1
+<BR>[Called By]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_ADC1
 </UL>
 
-<P><STRONG><a name="[69]"></a>ADC_GetConversionValue</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f10x_adc.o(i.ADC_GetConversionValue))
-<BR><BR>[Called By]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_ADC_Converted_Value
+<P><STRONG><a name="[7a]"></a>ADC_GetCalibrationStatus</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f10x_adc.o(i.ADC_GetCalibrationStatus))
+<BR><BR>[Called By]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_ADC1
 </UL>
 
-<P><STRONG><a name="[68]"></a>ADC_GetFlagStatus</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f10x_adc.o(i.ADC_GetFlagStatus))
-<BR><BR>[Called By]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_ADC_Converted_Value
+<P><STRONG><a name="[6e]"></a>ADC_GetConversionValue</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f10x_adc.o(i.ADC_GetConversionValue))
+<BR><BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_ADC_Converted_Value
 </UL>
 
-<P><STRONG><a name="[6f]"></a>ADC_GetResetCalibrationStatus</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f10x_adc.o(i.ADC_GetResetCalibrationStatus))
-<BR><BR>[Called By]<UL><LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_ADC1
+<P><STRONG><a name="[6d]"></a>ADC_GetFlagStatus</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f10x_adc.o(i.ADC_GetFlagStatus))
+<BR><BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_ADC_Converted_Value
 </UL>
 
-<P><STRONG><a name="[6c]"></a>ADC_Init</STRONG> (Thumb, 70 bytes, Stack size 12 bytes, stm32f10x_adc.o(i.ADC_Init))
+<P><STRONG><a name="[78]"></a>ADC_GetResetCalibrationStatus</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f10x_adc.o(i.ADC_GetResetCalibrationStatus))
+<BR><BR>[Called By]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_ADC1
+</UL>
+
+<P><STRONG><a name="[75]"></a>ADC_Init</STRONG> (Thumb, 70 bytes, Stack size 12 bytes, stm32f10x_adc.o(i.ADC_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = ADC_Init
 </UL>
-<BR>[Called By]<UL><LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_ADC1
+<BR>[Called By]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_ADC1
 </UL>
 
-<P><STRONG><a name="[5b]"></a>ADC_RegularChannelConfig</STRONG> (Thumb, 184 bytes, Stack size 20 bytes, stm32f10x_adc.o(i.ADC_RegularChannelConfig))
+<P><STRONG><a name="[5e]"></a>ADC_RegularChannelConfig</STRONG> (Thumb, 184 bytes, Stack size 20 bytes, stm32f10x_adc.o(i.ADC_RegularChannelConfig))
 <BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = ADC_RegularChannelConfig
 </UL>
-<BR>[Called By]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_ADC_Converted_Value
-<LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Configure_ADC_Channels
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_ADC_Converted_Value
+<LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Configure_ADC_Channels
 </UL>
 
-<P><STRONG><a name="[6e]"></a>ADC_ResetCalibration</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f10x_adc.o(i.ADC_ResetCalibration))
-<BR><BR>[Called By]<UL><LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_ADC1
+<P><STRONG><a name="[77]"></a>ADC_ResetCalibration</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f10x_adc.o(i.ADC_ResetCalibration))
+<BR><BR>[Called By]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_ADC1
 </UL>
 
-<P><STRONG><a name="[67]"></a>ADC_SoftwareStartConvCmd</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, stm32f10x_adc.o(i.ADC_SoftwareStartConvCmd))
-<BR><BR>[Called By]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_ADC_Converted_Value
+<P><STRONG><a name="[6c]"></a>ADC_SoftwareStartConvCmd</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, stm32f10x_adc.o(i.ADC_SoftwareStartConvCmd))
+<BR><BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_ADC_Converted_Value
 </UL>
 
-<P><STRONG><a name="[70]"></a>ADC_StartCalibration</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f10x_adc.o(i.ADC_StartCalibration))
-<BR><BR>[Called By]<UL><LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_ADC1
+<P><STRONG><a name="[79]"></a>ADC_StartCalibration</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f10x_adc.o(i.ADC_StartCalibration))
+<BR><BR>[Called By]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_ADC1
 </UL>
 
-<P><STRONG><a name="[5a]"></a>Configure_ADC_Channels</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, adc_config.o(i.Configure_ADC_Channels))
+<P><STRONG><a name="[5b]"></a>Check_OCD</STRONG> (Thumb, 74 bytes, Stack size 8 bytes, utils.o(i.Check_OCD))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = Check_OCD
+</UL>
+<BR>[Calls]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ReadInputDataBit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[5d]"></a>Configure_ADC_Channels</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, adc_config.o(i.Configure_ADC_Channels))
 <BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = Configure_ADC_Channels &rArr; ADC_RegularChannelConfig
 </UL>
-<BR>[Calls]<UL><LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_RegularChannelConfig
+<BR>[Calls]<UL><LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_RegularChannelConfig
 </UL>
-<BR>[Called By]<UL><LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_ADC1
+<BR>[Called By]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_ADC1
 </UL>
 
-<P><STRONG><a name="[5c]"></a>DMA1_Channel1_Event</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, dma_stm32f10x.o(i.DMA1_Channel1_Event))
+<P><STRONG><a name="[5f]"></a>DMA1_Channel1_Event</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, dma_stm32f10x.o(i.DMA1_Channel1_Event))
 <BR><BR>[Called By]<UL><LI><a href="#[18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel1_IRQHandler
 </UL>
 
 <P><STRONG><a name="[18]"></a>DMA1_Channel1_IRQHandler</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, dma_stm32f10x.o(i.DMA1_Channel1_IRQHandler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = DMA1_Channel1_IRQHandler
 </UL>
-<BR>[Calls]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel1_Event
+<BR>[Calls]<UL><LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel1_Event
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
 </UL>
-<P><STRONG><a name="[5d]"></a>DMA1_Channel2_Event</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, dma_stm32f10x.o(i.DMA1_Channel2_Event))
+<P><STRONG><a name="[60]"></a>DMA1_Channel2_Event</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, dma_stm32f10x.o(i.DMA1_Channel2_Event))
 <BR><BR>[Called By]<UL><LI><a href="#[19]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel2_IRQHandler
 </UL>
 
 <P><STRONG><a name="[19]"></a>DMA1_Channel2_IRQHandler</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, dma_stm32f10x.o(i.DMA1_Channel2_IRQHandler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = DMA1_Channel2_IRQHandler
 </UL>
-<BR>[Calls]<UL><LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel2_Event
+<BR>[Calls]<UL><LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel2_Event
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
 </UL>
-<P><STRONG><a name="[5e]"></a>DMA1_Channel3_Event</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, dma_stm32f10x.o(i.DMA1_Channel3_Event))
+<P><STRONG><a name="[61]"></a>DMA1_Channel3_Event</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, dma_stm32f10x.o(i.DMA1_Channel3_Event))
 <BR><BR>[Called By]<UL><LI><a href="#[1a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel3_IRQHandler
 </UL>
 
 <P><STRONG><a name="[1a]"></a>DMA1_Channel3_IRQHandler</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, dma_stm32f10x.o(i.DMA1_Channel3_IRQHandler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = DMA1_Channel3_IRQHandler
 </UL>
-<BR>[Calls]<UL><LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel3_Event
+<BR>[Calls]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel3_Event
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
 </UL>
-<P><STRONG><a name="[5f]"></a>DMA1_Channel4_Event</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, dma_stm32f10x.o(i.DMA1_Channel4_Event))
+<P><STRONG><a name="[62]"></a>DMA1_Channel4_Event</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, dma_stm32f10x.o(i.DMA1_Channel4_Event))
 <BR><BR>[Called By]<UL><LI><a href="#[1b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel4_IRQHandler
 </UL>
 
 <P><STRONG><a name="[1b]"></a>DMA1_Channel4_IRQHandler</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, dma_stm32f10x.o(i.DMA1_Channel4_IRQHandler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = DMA1_Channel4_IRQHandler
 </UL>
-<BR>[Calls]<UL><LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel4_Event
+<BR>[Calls]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel4_Event
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
 </UL>
-<P><STRONG><a name="[60]"></a>DMA1_Channel5_Event</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, dma_stm32f10x.o(i.DMA1_Channel5_Event))
+<P><STRONG><a name="[63]"></a>DMA1_Channel5_Event</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, dma_stm32f10x.o(i.DMA1_Channel5_Event))
 <BR><BR>[Called By]<UL><LI><a href="#[1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel5_IRQHandler
 </UL>
 
 <P><STRONG><a name="[1c]"></a>DMA1_Channel5_IRQHandler</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, dma_stm32f10x.o(i.DMA1_Channel5_IRQHandler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = DMA1_Channel5_IRQHandler
 </UL>
-<BR>[Calls]<UL><LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel5_Event
+<BR>[Calls]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel5_Event
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
 </UL>
-<P><STRONG><a name="[61]"></a>DMA1_Channel6_Event</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, dma_stm32f10x.o(i.DMA1_Channel6_Event))
+<P><STRONG><a name="[64]"></a>DMA1_Channel6_Event</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, dma_stm32f10x.o(i.DMA1_Channel6_Event))
 <BR><BR>[Called By]<UL><LI><a href="#[1d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel6_IRQHandler
 </UL>
 
 <P><STRONG><a name="[1d]"></a>DMA1_Channel6_IRQHandler</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, dma_stm32f10x.o(i.DMA1_Channel6_IRQHandler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = DMA1_Channel6_IRQHandler
 </UL>
-<BR>[Calls]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel6_Event
+<BR>[Calls]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel6_Event
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
 </UL>
-<P><STRONG><a name="[62]"></a>DMA1_Channel7_Event</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, dma_stm32f10x.o(i.DMA1_Channel7_Event))
+<P><STRONG><a name="[65]"></a>DMA1_Channel7_Event</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, dma_stm32f10x.o(i.DMA1_Channel7_Event))
 <BR><BR>[Called By]<UL><LI><a href="#[1e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel7_IRQHandler
 </UL>
 
 <P><STRONG><a name="[1e]"></a>DMA1_Channel7_IRQHandler</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, dma_stm32f10x.o(i.DMA1_Channel7_IRQHandler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = DMA1_Channel7_IRQHandler
 </UL>
-<BR>[Calls]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel7_Event
+<BR>[Calls]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel7_Event
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
 </UL>
-<P><STRONG><a name="[83]"></a>GPIO_AFConfigure</STRONG> (Thumb, 146 bytes, Stack size 12 bytes, gpio_stm32f10x.o(i.GPIO_AFConfigure))
+<P><STRONG><a name="[66]"></a>Disconnect_Contactors</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, utils.o(i.Disconnect_Contactors))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = Disconnect_Contactors
+</UL>
+<BR>[Calls]<UL><LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetBits
+</UL>
+<BR>[Called By]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[8d]"></a>GPIO_AFConfigure</STRONG> (Thumb, 146 bytes, Stack size 12 bytes, gpio_stm32f10x.o(i.GPIO_AFConfigure))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = GPIO_AFConfigure
 </UL>
-<BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Uninitialize
-<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Initialize
+<BR>[Called By]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Uninitialize
+<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Initialize
 </UL>
 
-<P><STRONG><a name="[64]"></a>GPIO_GetPortClockState</STRONG> (Thumb, 118 bytes, Stack size 0 bytes, gpio_stm32f10x.o(i.GPIO_GetPortClockState))
-<BR><BR>[Called By]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PinConfigure
+<P><STRONG><a name="[69]"></a>GPIO_GetPortClockState</STRONG> (Thumb, 118 bytes, Stack size 0 bytes, gpio_stm32f10x.o(i.GPIO_GetPortClockState))
+<BR><BR>[Called By]<UL><LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PinConfigure
 </UL>
 
-<P><STRONG><a name="[73]"></a>GPIO_Init</STRONG> (Thumb, 278 bytes, Stack size 24 bytes, stm32f10x_gpio.o(i.GPIO_Init))
+<P><STRONG><a name="[7c]"></a>GPIO_Init</STRONG> (Thumb, 278 bytes, Stack size 24 bytes, stm32f10x_gpio.o(i.GPIO_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = GPIO_Init
 </UL>
-<BR>[Called By]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_SPI1
-<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_ADC1
+<BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_SPI1
+<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_GPIO
+<LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_ADC1
 </UL>
 
-<P><STRONG><a name="[63]"></a>GPIO_PinConfigure</STRONG> (Thumb, 120 bytes, Stack size 24 bytes, gpio_stm32f10x.o(i.GPIO_PinConfigure))
+<P><STRONG><a name="[68]"></a>GPIO_PinConfigure</STRONG> (Thumb, 120 bytes, Stack size 24 bytes, gpio_stm32f10x.o(i.GPIO_PinConfigure))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = GPIO_PinConfigure
 </UL>
-<BR>[Calls]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PortClock
-<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_GetPortClockState
+<BR>[Calls]<UL><LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PortClock
+<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_GetPortClockState
 </UL>
-<BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Uninitialize
-<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Initialize
-<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Control
-</UL>
-
-<P><STRONG><a name="[65]"></a>GPIO_PortClock</STRONG> (Thumb, 284 bytes, Stack size 0 bytes, gpio_stm32f10x.o(i.GPIO_PortClock))
-<BR><BR>[Called By]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PinConfigure
-<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Initialize
-<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Control
+<BR>[Called By]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Uninitialize
+<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Initialize
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Control
 </UL>
 
-<P><STRONG><a name="[8b]"></a>GPIO_ResetBits</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_gpio.o(i.GPIO_ResetBits))
-<BR><BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;transfer_16b_SPI1_Master
+<P><STRONG><a name="[6a]"></a>GPIO_PortClock</STRONG> (Thumb, 284 bytes, Stack size 0 bytes, gpio_stm32f10x.o(i.GPIO_PortClock))
+<BR><BR>[Called By]<UL><LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PinConfigure
+<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Initialize
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Control
 </UL>
 
-<P><STRONG><a name="[72]"></a>GPIO_StructInit</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f10x_gpio.o(i.GPIO_StructInit))
-<BR><BR>[Called By]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_SPI1
-<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_ADC1
+<P><STRONG><a name="[5c]"></a>GPIO_ReadInputDataBit</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f10x_gpio.o(i.GPIO_ReadInputDataBit))
+<BR><BR>[Called By]<UL><LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Check_OCD
 </UL>
 
-<P><STRONG><a name="[66]"></a>Get_ADC_Converted_Value</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, adc_config.o(i.Get_ADC_Converted_Value))
+<P><STRONG><a name="[92]"></a>GPIO_ResetBits</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_gpio.o(i.GPIO_ResetBits))
+<BR><BR>[Called By]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Transfer_16b_SPI1_Master
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_LEDS
+</UL>
+
+<P><STRONG><a name="[67]"></a>GPIO_SetBits</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_gpio.o(i.GPIO_SetBits))
+<BR><BR>[Called By]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_LEDS
+<LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Disconnect_Contactors
+</UL>
+
+<P><STRONG><a name="[7b]"></a>GPIO_StructInit</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f10x_gpio.o(i.GPIO_StructInit))
+<BR><BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_SPI1
+<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_GPIO
+<LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_ADC1
+</UL>
+
+<P><STRONG><a name="[6b]"></a>Get_ADC_Converted_Value</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, adc_config.o(i.Get_ADC_Converted_Value))
 <BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = Get_ADC_Converted_Value &rArr; ADC_RegularChannelConfig
 </UL>
-<BR>[Calls]<UL><LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_SoftwareStartConvCmd
-<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_RegularChannelConfig
-<LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_GetFlagStatus
-<LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_GetConversionValue
+<BR>[Calls]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_SoftwareStartConvCmd
+<LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_RegularChannelConfig
+<LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_GetFlagStatus
+<LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_GetConversionValue
 </UL>
-<BR>[Called By]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_current_and_voltage_readings
-</UL>
-
-<P><STRONG><a name="[89]"></a>MicrosecondDelay</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, spi_config.o(i.MicrosecondDelay))
-<BR><BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_temperature_readings
+<BR>[Called By]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_Current_Voltage_Readings
 </UL>
 
-<P><STRONG><a name="[6a]"></a>PeripheralInit_ADC1</STRONG> (Thumb, 192 bytes, Stack size 32 bytes, adc_config.o(i.PeripheralInit_ADC1))
+<P><STRONG><a name="[6f]"></a>Get_Current_Voltage_Readings</STRONG> (Thumb, 88 bytes, Stack size 32 bytes, adc_config.o(i.Get_Current_Voltage_Readings))
+<BR><BR>[Stack]<UL><LI>Max Depth = 60<LI>Call Chain = Get_Current_Voltage_Readings &rArr; Get_ADC_Converted_Value &rArr; ADC_RegularChannelConfig
+</UL>
+<BR>[Calls]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_ADC_Converted_Value
+</UL>
+<BR>[Called By]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[70]"></a>Get_Temperature_Readings</STRONG> (Thumb, 74 bytes, Stack size 16 bytes, spi_config.o(i.Get_Temperature_Readings))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = Get_Temperature_Readings &rArr; Transfer_16b_SPI1_Master
+</UL>
+<BR>[Calls]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Transfer_16b_SPI1_Master
+<LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MicrosecondDelay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[71]"></a>MicrosecondDelay</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, spi_config.o(i.MicrosecondDelay))
+<BR><BR>[Called By]<UL><LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_Temperature_Readings
+</UL>
+
+<P><STRONG><a name="[73]"></a>PeripheralInit_ADC1</STRONG> (Thumb, 192 bytes, Stack size 32 bytes, adc_config.o(i.PeripheralInit_ADC1))
 <BR><BR>[Stack]<UL><LI>Max Depth = 60<LI>Call Chain = PeripheralInit_ADC1 &rArr; Configure_ADC_Channels &rArr; ADC_RegularChannelConfig
 </UL>
-<BR>[Calls]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphClockCmd
-<LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_StructInit
-<LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
-<LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_StartCalibration
-<LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_ResetCalibration
-<LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_Init
-<LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_GetResetCalibrationStatus
-<LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_GetCalibrationStatus
-<LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_DeInit
-<LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_Cmd
-<LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Configure_ADC_Channels
+<BR>[Calls]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphClockCmd
+<LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_StructInit
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+<LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_StartCalibration
+<LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_ResetCalibration
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_Init
+<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_GetResetCalibrationStatus
+<LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_GetCalibrationStatus
+<LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_DeInit
+<LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_Cmd
+<LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Configure_ADC_Channels
 </UL>
-<BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<BR>[Called By]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[74]"></a>PeripheralInit_SPI1</STRONG> (Thumb, 218 bytes, Stack size 32 bytes, spi_config.o(i.PeripheralInit_SPI1))
+<P><STRONG><a name="[7d]"></a>PeripheralInit_GPIO</STRONG> (Thumb, 152 bytes, Stack size 8 bytes, utils.o(i.PeripheralInit_GPIO))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = PeripheralInit_GPIO &rArr; GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphClockCmd
+<LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_StructInit
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[7e]"></a>PeripheralInit_SPI1</STRONG> (Thumb, 218 bytes, Stack size 32 bytes, spi_config.o(i.PeripheralInit_SPI1))
 <BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = PeripheralInit_SPI1 &rArr; GPIO_Init
 </UL>
-<BR>[Calls]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_StructInit
-<LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Init
-<LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Cmd
-<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphClockCmd
-<LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_StructInit
-<LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+<BR>[Calls]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_StructInit
+<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Init
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Cmd
+<LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphClockCmd
+<LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_StructInit
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
 </UL>
-<BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
-</UL>
-
-<P><STRONG><a name="[6b]"></a>RCC_APB2PeriphClockCmd</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f10x_rcc.o(i.RCC_APB2PeriphClockCmd))
-<BR><BR>[Called By]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_SPI1
-<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_ADC1
+<BR>[Called By]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[59]"></a>RCC_APB2PeriphResetCmd</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f10x_rcc.o(i.RCC_APB2PeriphResetCmd))
-<BR><BR>[Called By]<UL><LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_DeInit
+<P><STRONG><a name="[74]"></a>RCC_APB2PeriphClockCmd</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f10x_rcc.o(i.RCC_APB2PeriphClockCmd))
+<BR><BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_SPI1
+<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_GPIO
+<LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_ADC1
+</UL>
+
+<P><STRONG><a name="[5a]"></a>RCC_APB2PeriphResetCmd</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f10x_rcc.o(i.RCC_APB2PeriphResetCmd))
+<BR><BR>[Called By]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_DeInit
 </UL>
 
 <P><STRONG><a name="[30]"></a>SPI1_IRQHandler</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, spi_stm32f10x.o(i.SPI1_IRQHandler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = SPI1_IRQHandler &rArr; SPI_IRQHandler
 </UL>
-<BR>[Calls]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_IRQHandler
+<BR>[Calls]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_IRQHandler
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(RESET)
 </UL>
-<P><STRONG><a name="[77]"></a>SPI_Cmd</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, stm32f10x_spi.o(i.SPI_Cmd))
-<BR><BR>[Called By]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_SPI1
+<P><STRONG><a name="[81]"></a>SPI_Cmd</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, stm32f10x_spi.o(i.SPI_Cmd))
+<BR><BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_SPI1
 </UL>
 
-<P><STRONG><a name="[8c]"></a>SPI_I2S_GetFlagStatus</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f10x_spi.o(i.SPI_I2S_GetFlagStatus))
-<BR><BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;transfer_16b_SPI1_Master
+<P><STRONG><a name="[93]"></a>SPI_I2S_GetFlagStatus</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f10x_spi.o(i.SPI_I2S_GetFlagStatus))
+<BR><BR>[Called By]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Transfer_16b_SPI1_Master
 </UL>
 
-<P><STRONG><a name="[8e]"></a>SPI_I2S_ReceiveData</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f10x_spi.o(i.SPI_I2S_ReceiveData))
-<BR><BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;transfer_16b_SPI1_Master
+<P><STRONG><a name="[95]"></a>SPI_I2S_ReceiveData</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f10x_spi.o(i.SPI_I2S_ReceiveData))
+<BR><BR>[Called By]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Transfer_16b_SPI1_Master
 </UL>
 
-<P><STRONG><a name="[8d]"></a>SPI_I2S_SendData</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_spi.o(i.SPI_I2S_SendData))
-<BR><BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;transfer_16b_SPI1_Master
+<P><STRONG><a name="[94]"></a>SPI_I2S_SendData</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f10x_spi.o(i.SPI_I2S_SendData))
+<BR><BR>[Called By]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Transfer_16b_SPI1_Master
 </UL>
 
-<P><STRONG><a name="[7b]"></a>SPI_IRQHandler</STRONG> (Thumb, 520 bytes, Stack size 24 bytes, spi_stm32f10x.o(i.SPI_IRQHandler))
+<P><STRONG><a name="[85]"></a>SPI_IRQHandler</STRONG> (Thumb, 520 bytes, Stack size 24 bytes, spi_stm32f10x.o(i.SPI_IRQHandler))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = SPI_IRQHandler
 </UL>
 <BR>[Called By]<UL><LI><a href="#[30]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI1_IRQHandler
 </UL>
 
-<P><STRONG><a name="[76]"></a>SPI_Init</STRONG> (Thumb, 60 bytes, Stack size 8 bytes, stm32f10x_spi.o(i.SPI_Init))
+<P><STRONG><a name="[80]"></a>SPI_Init</STRONG> (Thumb, 60 bytes, Stack size 8 bytes, stm32f10x_spi.o(i.SPI_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SPI_Init
 </UL>
-<BR>[Called By]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_SPI1
+<BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_SPI1
 </UL>
 
-<P><STRONG><a name="[75]"></a>SPI_StructInit</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, stm32f10x_spi.o(i.SPI_StructInit))
-<BR><BR>[Called By]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_SPI1
+<P><STRONG><a name="[7f]"></a>SPI_StructInit</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, stm32f10x_spi.o(i.SPI_StructInit))
+<BR><BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_SPI1
+</UL>
+
+<P><STRONG><a name="[96]"></a>Send_CAN_Data</STRONG> (Thumb, 100 bytes, Stack size 32 bytes, utils.o(i.Send_CAN_Data))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = Send_CAN_Data
+</UL>
+<BR>[Called By]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[91]"></a>Set_LEDS</STRONG> (Thumb, 68 bytes, Stack size 16 bytes, utils.o(i.Set_LEDS))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = Set_LEDS
+</UL>
+<BR>[Calls]<UL><LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetBits
+<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ResetBits
+</UL>
+<BR>[Called By]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
 <P><STRONG><a name="[38]"></a>SystemInit</STRONG> (Thumb, 78 bytes, Stack size 8 bytes, system_stm32f10x.o(i.SystemInit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = SystemInit &rArr; SetSysClock &rArr; SetSysClockTo72
 </UL>
-<BR>[Calls]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetSysClock
+<BR>[Calls]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetSysClock
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f10x_md.o(.text)
 </UL>
-<P><STRONG><a name="[87]"></a>get_current_and_voltage_readings</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, adc_config.o(i.get_current_and_voltage_readings))
-<BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = get_current_and_voltage_readings &rArr; Get_ADC_Converted_Value &rArr; ADC_RegularChannelConfig
+<P><STRONG><a name="[72]"></a>Transfer_16b_SPI1_Master</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, spi_config.o(i.Transfer_16b_SPI1_Master))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = Transfer_16b_SPI1_Master
 </UL>
-<BR>[Calls]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_ADC_Converted_Value
+<BR>[Calls]<UL><LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_SendData
+<LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_ReceiveData
+<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_GetFlagStatus
+<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ResetBits
 </UL>
-<BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
-</UL>
-
-<P><STRONG><a name="[88]"></a>get_temperature_readings</STRONG> (Thumb, 74 bytes, Stack size 16 bytes, spi_config.o(i.get_temperature_readings))
-<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = get_temperature_readings &rArr; transfer_16b_SPI1_Master
-</UL>
-<BR>[Calls]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;transfer_16b_SPI1_Master
-<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MicrosecondDelay
-</UL>
-<BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<BR>[Called By]<UL><LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_Temperature_Readings
 </UL>
 
-<P><STRONG><a name="[50]"></a>main</STRONG> (Thumb, 30 bytes, Stack size 48 bytes, main.o(i.main))
-<BR><BR>[Stack]<UL><LI>Max Depth = 108<LI>Call Chain = main &rArr; PeripheralInit_ADC1 &rArr; Configure_ADC_Channels &rArr; ADC_RegularChannelConfig
+<P><STRONG><a name="[51]"></a>main</STRONG> (Thumb, 340 bytes, Stack size 96 bytes, main.o(i.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 156<LI>Call Chain = main &rArr; PeripheralInit_ADC1 &rArr; Configure_ADC_Channels &rArr; ADC_RegularChannelConfig
 </UL>
-<BR>[Calls]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_temperature_readings
-<LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_SPI1
-<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_current_and_voltage_readings
-<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_ADC1
+<BR>[Calls]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Set_LEDS
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Send_CAN_Data
+<LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_SPI1
+<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_GPIO
+<LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_Temperature_Readings
+<LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Disconnect_Contactors
+<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Check_OCD
+<LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PeripheralInit_ADC1
+<LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_Current_Voltage_Readings
 </UL>
-<BR>[Called By]<UL><LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
-</UL>
-
-<P><STRONG><a name="[8a]"></a>transfer_16b_SPI1_Master</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, spi_config.o(i.transfer_16b_SPI1_Master))
-<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = transfer_16b_SPI1_Master
-</UL>
-<BR>[Calls]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_SendData
-<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_ReceiveData
-<LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_I2S_GetFlagStatus
-<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ResetBits
-</UL>
-<BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;get_temperature_readings
+<BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
 </UL>
 <P>
 <H3>
@@ -793,63 +858,63 @@ Local Symbols
 <P><STRONG><a name="[43]"></a>SPI1_Control</STRONG> (Thumb, 18 bytes, Stack size 16 bytes, spi_stm32f10x.o(i.SPI1_Control))
 <BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = SPI1_Control &rArr; SPI_Control &rArr; GPIO_PinConfigure
 </UL>
-<BR>[Calls]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Control
+<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Control
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> spi_stm32f10x.o(.constdata)
 </UL>
 <P><STRONG><a name="[42]"></a>SPI1_GetDataCount</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, spi_stm32f10x.o(i.SPI1_GetDataCount))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SPI1_GetDataCount
 </UL>
-<BR>[Calls]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_GetDataCount
+<BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_GetDataCount
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> spi_stm32f10x.o(.constdata)
 </UL>
 <P><STRONG><a name="[44]"></a>SPI1_GetStatus</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, spi_stm32f10x.o(i.SPI1_GetStatus))
 <BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = SPI1_GetStatus &rArr; SPI_GetStatus
 </UL>
-<BR>[Calls]<UL><LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_GetStatus
+<BR>[Calls]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_GetStatus
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> spi_stm32f10x.o(.constdata)
 </UL>
 <P><STRONG><a name="[3c]"></a>SPI1_Initialize</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, spi_stm32f10x.o(i.SPI1_Initialize))
 <BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = SPI1_Initialize &rArr; SPI_Initialize &rArr; GPIO_PinConfigure
 </UL>
-<BR>[Calls]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Initialize
+<BR>[Calls]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Initialize
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> spi_stm32f10x.o(.constdata)
 </UL>
 <P><STRONG><a name="[3e]"></a>SPI1_PowerControl</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, spi_stm32f10x.o(i.SPI1_PowerControl))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = SPI1_PowerControl &rArr; SPI_PowerControl
 </UL>
-<BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_PowerControl
+<BR>[Calls]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_PowerControl
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> spi_stm32f10x.o(.constdata)
 </UL>
 <P><STRONG><a name="[40]"></a>SPI1_Receive</STRONG> (Thumb, 18 bytes, Stack size 16 bytes, spi_stm32f10x.o(i.SPI1_Receive))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = SPI1_Receive &rArr; SPI_Receive
 </UL>
-<BR>[Calls]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Receive
+<BR>[Calls]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Receive
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> spi_stm32f10x.o(.constdata)
 </UL>
 <P><STRONG><a name="[3f]"></a>SPI1_Send</STRONG> (Thumb, 18 bytes, Stack size 16 bytes, spi_stm32f10x.o(i.SPI1_Send))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = SPI1_Send &rArr; SPI_Send
 </UL>
-<BR>[Calls]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Send
+<BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Send
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> spi_stm32f10x.o(.constdata)
 </UL>
 <P><STRONG><a name="[41]"></a>SPI1_Transfer</STRONG> (Thumb, 22 bytes, Stack size 16 bytes, spi_stm32f10x.o(i.SPI1_Transfer))
 <BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = SPI1_Transfer &rArr; SPI_Transfer
 </UL>
-<BR>[Calls]<UL><LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Transfer
+<BR>[Calls]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Transfer
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> spi_stm32f10x.o(.constdata)
 </UL>
 <P><STRONG><a name="[3d]"></a>SPI1_Uninitialize</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, spi_stm32f10x.o(i.SPI1_Uninitialize))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = SPI1_Uninitialize &rArr; SPI_Uninitialize &rArr; GPIO_PinConfigure
 </UL>
-<BR>[Calls]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Uninitialize
+<BR>[Calls]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_Uninitialize
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> spi_stm32f10x.o(.constdata)
 </UL>
@@ -861,88 +926,88 @@ Local Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> spi_stm32f10x.o(.constdata)
 </UL>
-<P><STRONG><a name="[78]"></a>SPI_Control</STRONG> (Thumb, 1072 bytes, Stack size 40 bytes, spi_stm32f10x.o(i.SPI_Control))
+<P><STRONG><a name="[82]"></a>SPI_Control</STRONG> (Thumb, 1072 bytes, Stack size 40 bytes, spi_stm32f10x.o(i.SPI_Control))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = SPI_Control &rArr; GPIO_PinConfigure
 </UL>
-<BR>[Calls]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PortClock
-<LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PinConfigure
-<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<BR>[Calls]<UL><LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PortClock
+<LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PinConfigure
+<LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
 </UL>
 <BR>[Called By]<UL><LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI1_Control
 </UL>
 
-<P><STRONG><a name="[79]"></a>SPI_GetDataCount</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, spi_stm32f10x.o(i.SPI_GetDataCount))
+<P><STRONG><a name="[83]"></a>SPI_GetDataCount</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, spi_stm32f10x.o(i.SPI_GetDataCount))
 <BR><BR>[Called By]<UL><LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI1_GetDataCount
 </UL>
 
-<P><STRONG><a name="[7a]"></a>SPI_GetStatus</STRONG> (Thumb, 90 bytes, Stack size 12 bytes, spi_stm32f10x.o(i.SPI_GetStatus))
+<P><STRONG><a name="[84]"></a>SPI_GetStatus</STRONG> (Thumb, 90 bytes, Stack size 12 bytes, spi_stm32f10x.o(i.SPI_GetStatus))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = SPI_GetStatus
 </UL>
 <BR>[Called By]<UL><LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI1_GetStatus
 </UL>
 
-<P><STRONG><a name="[7c]"></a>SPI_Initialize</STRONG> (Thumb, 158 bytes, Stack size 16 bytes, spi_stm32f10x.o(i.SPI_Initialize))
+<P><STRONG><a name="[86]"></a>SPI_Initialize</STRONG> (Thumb, 158 bytes, Stack size 16 bytes, spi_stm32f10x.o(i.SPI_Initialize))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = SPI_Initialize &rArr; GPIO_PinConfigure
 </UL>
-<BR>[Calls]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PortClock
-<LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PinConfigure
-<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_AFConfigure
-<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<BR>[Calls]<UL><LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PortClock
+<LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PinConfigure
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_AFConfigure
+<LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
 </UL>
 <BR>[Called By]<UL><LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI1_Initialize
 </UL>
 
-<P><STRONG><a name="[84]"></a>SPI_PeripheralReset</STRONG> (Thumb, 82 bytes, Stack size 0 bytes, spi_stm32f10x.o(i.SPI_PeripheralReset))
-<BR><BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_PowerControl
+<P><STRONG><a name="[8e]"></a>SPI_PeripheralReset</STRONG> (Thumb, 82 bytes, Stack size 0 bytes, spi_stm32f10x.o(i.SPI_PeripheralReset))
+<BR><BR>[Called By]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_PowerControl
 </UL>
 
-<P><STRONG><a name="[7d]"></a>SPI_PowerControl</STRONG> (Thumb, 340 bytes, Stack size 16 bytes, spi_stm32f10x.o(i.SPI_PowerControl))
+<P><STRONG><a name="[87]"></a>SPI_PowerControl</STRONG> (Thumb, 340 bytes, Stack size 16 bytes, spi_stm32f10x.o(i.SPI_PowerControl))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SPI_PowerControl
 </UL>
-<BR>[Calls]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_PeripheralReset
+<BR>[Calls]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_PeripheralReset
 </UL>
 <BR>[Called By]<UL><LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI1_PowerControl
 </UL>
 
-<P><STRONG><a name="[7e]"></a>SPI_Receive</STRONG> (Thumb, 148 bytes, Stack size 8 bytes, spi_stm32f10x.o(i.SPI_Receive))
+<P><STRONG><a name="[88]"></a>SPI_Receive</STRONG> (Thumb, 148 bytes, Stack size 8 bytes, spi_stm32f10x.o(i.SPI_Receive))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SPI_Receive
 </UL>
 <BR>[Called By]<UL><LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI1_Receive
 </UL>
 
-<P><STRONG><a name="[7f]"></a>SPI_Send</STRONG> (Thumb, 148 bytes, Stack size 8 bytes, spi_stm32f10x.o(i.SPI_Send))
+<P><STRONG><a name="[89]"></a>SPI_Send</STRONG> (Thumb, 148 bytes, Stack size 8 bytes, spi_stm32f10x.o(i.SPI_Send))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SPI_Send
 </UL>
 <BR>[Called By]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI1_Send
 </UL>
 
-<P><STRONG><a name="[80]"></a>SPI_Transfer</STRONG> (Thumb, 112 bytes, Stack size 12 bytes, spi_stm32f10x.o(i.SPI_Transfer))
+<P><STRONG><a name="[8a]"></a>SPI_Transfer</STRONG> (Thumb, 112 bytes, Stack size 12 bytes, spi_stm32f10x.o(i.SPI_Transfer))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = SPI_Transfer
 </UL>
 <BR>[Called By]<UL><LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI1_Transfer
 </UL>
 
-<P><STRONG><a name="[81]"></a>SPI_Uninitialize</STRONG> (Thumb, 78 bytes, Stack size 8 bytes, spi_stm32f10x.o(i.SPI_Uninitialize))
+<P><STRONG><a name="[8b]"></a>SPI_Uninitialize</STRONG> (Thumb, 78 bytes, Stack size 8 bytes, spi_stm32f10x.o(i.SPI_Uninitialize))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = SPI_Uninitialize &rArr; GPIO_PinConfigure
 </UL>
-<BR>[Calls]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PinConfigure
-<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_AFConfigure
+<BR>[Calls]<UL><LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_PinConfigure
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_AFConfigure
 </UL>
 <BR>[Called By]<UL><LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI1_Uninitialize
 </UL>
 
-<P><STRONG><a name="[85]"></a>SetSysClock</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, system_stm32f10x.o(i.SetSysClock))
+<P><STRONG><a name="[8f]"></a>SetSysClock</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, system_stm32f10x.o(i.SetSysClock))
 <BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = SetSysClock &rArr; SetSysClockTo72
 </UL>
-<BR>[Calls]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetSysClockTo72
+<BR>[Calls]<UL><LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetSysClockTo72
 </UL>
 <BR>[Called By]<UL><LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
 </UL>
 
-<P><STRONG><a name="[86]"></a>SetSysClockTo72</STRONG> (Thumb, 214 bytes, Stack size 12 bytes, system_stm32f10x.o(i.SetSysClockTo72))
+<P><STRONG><a name="[90]"></a>SetSysClockTo72</STRONG> (Thumb, 214 bytes, Stack size 12 bytes, system_stm32f10x.o(i.SetSysClockTo72))
 <BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = SetSysClockTo72
 </UL>
-<BR>[Called By]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetSysClock
+<BR>[Called By]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetSysClock
 </UL>
 <P>
 <H3>
