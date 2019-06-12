@@ -17,13 +17,12 @@
 #define CMSIS_device_header "stm32f10x.h"
 
 #define RTE_DEVICE_STDPERIPH_ADC
+#define RTE_DEVICE_STDPERIPH_CAN
 #define RTE_DEVICE_STDPERIPH_DMA
 #define RTE_DEVICE_STDPERIPH_FRAMEWORK
 #define RTE_DEVICE_STDPERIPH_GPIO
 #define RTE_DEVICE_STDPERIPH_RCC
 #define RTE_DEVICE_STDPERIPH_SPI
-#define RTE_Drivers_SPI1                /* Driver SPI1 */
-        #define RTE_Drivers_SPI2                /* Driver SPI2 */
-        #define RTE_Drivers_SPI3                /* Driver SPI3 */
+#define RTE_DEVICE_STDPERIPH_TIM
 
 #endif /* RTE_COMPONENTS_H */

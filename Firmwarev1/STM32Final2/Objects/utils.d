@@ -1,5 +1,5 @@
-.\objects\utils.o: utils.c
-.\objects\utils.o: utils.h
+.\objects\utils.o: ..\..\STM32Final2\utils.c
+.\objects\utils.o: ..\..\STM32Final2\utils.h
 .\objects\utils.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h
 .\objects\utils.o: .\RTE\_Target_1\RTE_Components.h
 .\objects\utils.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm3.h
@@ -11,11 +11,13 @@
 .\objects\utils.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x_conf.h
 .\objects\utils.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x_adc.h
 .\objects\utils.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h
+.\objects\utils.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x_can.h
 .\objects\utils.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h
 .\objects\utils.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x_gpio.h
 .\objects\utils.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x_rcc.h
 .\objects\utils.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x_spi.h
+.\objects\utils.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h
 .\objects\utils.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h
-.\objects\utils.o: ADC_config.h
-.\objects\utils.o: SPI_config.h
+.\objects\utils.o: ..\..\STM32Final2\ADC_config.h
+.\objects\utils.o: ..\..\STM32Final2\SPI_config.h
 .\objects\utils.o: .\Peripherals\CAN\CAN.h

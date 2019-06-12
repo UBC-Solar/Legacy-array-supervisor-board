@@ -1,5 +1,5 @@
-.\objects\adc_config.o: ADC_config.c
-.\objects\adc_config.o: ADC_config.h
+.\objects\adc_config.o: ..\..\STM32Final2\ADC_config.c
+.\objects\adc_config.o: ..\..\STM32Final2\ADC_config.h
 .\objects\adc_config.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h
 .\objects\adc_config.o: .\RTE\_Target_1\RTE_Components.h
 .\objects\adc_config.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm3.h
@@ -11,8 +11,10 @@
 .\objects\adc_config.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x_conf.h
 .\objects\adc_config.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x_adc.h
 .\objects\adc_config.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h
+.\objects\adc_config.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x_can.h
 .\objects\adc_config.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h
 .\objects\adc_config.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x_gpio.h
 .\objects\adc_config.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x_rcc.h
 .\objects\adc_config.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x_spi.h
+.\objects\adc_config.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h
 .\objects\adc_config.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h

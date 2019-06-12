@@ -336,7 +336,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>.\Peripherals\CAN</IncludePath>
+              <IncludePath>..\STM32Final2;.\Peripherals\CAN</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -381,52 +381,54 @@
           <GroupName>Source Group 1</GroupName>
           <Files>
             <File>
+              <FileName>CAN.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\STM32Final2\Peripherals\CAN\CAN.c</FilePath>
+            </File>
+            <File>
+              <FileName>CAN.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\STM32Final2\Peripherals\CAN\CAN.h</FilePath>
+            </File>
+            <File>
               <FileName>ADC_config.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\ADC_config.c</FilePath>
+              <FilePath>..\..\STM32Final2\ADC_config.c</FilePath>
             </File>
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\main.c</FilePath>
+              <FilePath>..\..\STM32Final2\main.c</FilePath>
             </File>
             <File>
               <FileName>SPI_config.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\SPI_config.c</FilePath>
-            </File>
-            <File>
-              <FileName>ADC_config.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\ADC_config.h</FilePath>
-            </File>
-            <File>
-              <FileName>SPI_config.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\SPI_config.h</FilePath>
+              <FilePath>..\..\STM32Final2\SPI_config.c</FilePath>
             </File>
             <File>
               <FileName>utils.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\utils.c</FilePath>
+              <FilePath>..\..\STM32Final2\utils.c</FilePath>
+            </File>
+            <File>
+              <FileName>ADC_config.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\STM32Final2\ADC_config.h</FilePath>
+            </File>
+            <File>
+              <FileName>SPI_config.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\STM32Final2\SPI_config.h</FilePath>
             </File>
             <File>
               <FileName>utils.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\utils.h</FilePath>
-            </File>
-            <File>
-              <FileName>CAN.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Peripherals\CAN\CAN.c</FilePath>
+              <FilePath>..\..\STM32Final2\utils.h</FilePath>
             </File>
           </Files>
         </Group>
         <Group>
           <GroupName>::CMSIS</GroupName>
-        </Group>
-        <Group>
-          <GroupName>::CMSIS Driver</GroupName>
         </Group>
         <Group>
           <GroupName>::Device</GroupName>
@@ -436,23 +438,10 @@
   </Targets>
 
   <RTE>
-    <apis>
-      <api Capiversion="2.2.0" Cclass="CMSIS Driver" Cgroup="SPI" exclusive="0">
-        <package name="CMSIS" schemaVersion="1.3" url="http://www.keil.com/pack/" vendor="ARM" version="5.4.0"/>
-        <targetInfos>
-          <targetInfo name="Target 1"/>
-        </targetInfos>
-      </api>
-    </apis>
+    <apis/>
     <components>
       <component Cclass="CMSIS" Cgroup="CORE" Cvendor="ARM" Cversion="5.1.2" condition="ARMv6_7_8-M Device">
         <package name="CMSIS" schemaVersion="1.3" url="http://www.keil.com/pack/" vendor="ARM" version="5.4.0"/>
-        <targetInfos>
-          <targetInfo name="Target 1"/>
-        </targetInfos>
-      </component>
-      <component Capiversion="2.1" Cclass="CMSIS Driver" Cgroup="SPI" Cvendor="Keil" Cversion="2.2" condition="STM32F1xx CMSIS GPIO DMA">
-        <package name="STM32F1xx_DFP" schemaVersion="1.4.0" url="http://www.keil.com/pack/" vendor="Keil" version="2.3.0"/>
         <targetInfos>
           <targetInfo name="Target 1"/>
         </targetInfos>
@@ -476,6 +465,12 @@
         </targetInfos>
       </component>
       <component Cclass="Device" Cgroup="StdPeriph Drivers" Csub="ADC" Cvendor="Keil" Cversion="3.5.0" condition="STM32F1xx STDPERIPH RCC">
+        <package name="STM32F1xx_DFP" schemaVersion="1.4.0" url="http://www.keil.com/pack/" vendor="Keil" version="2.3.0"/>
+        <targetInfos>
+          <targetInfo name="Target 1"/>
+        </targetInfos>
+      </component>
+      <component Cclass="Device" Cgroup="StdPeriph Drivers" Csub="CAN" Cvendor="Keil" Cversion="3.5.0" condition="STM32F1xx STDPERIPH RCC">
         <package name="STM32F1xx_DFP" schemaVersion="1.4.0" url="http://www.keil.com/pack/" vendor="Keil" version="2.3.0"/>
         <targetInfos>
           <targetInfo name="Target 1"/>
@@ -506,6 +501,12 @@
         </targetInfos>
       </component>
       <component Cclass="Device" Cgroup="StdPeriph Drivers" Csub="SPI" Cvendor="Keil" Cversion="3.5.0" condition="STM32F1xx STDPERIPH RCC">
+        <package name="STM32F1xx_DFP" schemaVersion="1.4.0" url="http://www.keil.com/pack/" vendor="Keil" version="2.3.0"/>
+        <targetInfos>
+          <targetInfo name="Target 1"/>
+        </targetInfos>
+      </component>
+      <component Cclass="Device" Cgroup="StdPeriph Drivers" Csub="TIM" Cvendor="Keil" Cversion="3.5.0" condition="STM32F1xx STDPERIPH RCC">
         <package name="STM32F1xx_DFP" schemaVersion="1.4.0" url="http://www.keil.com/pack/" vendor="Keil" version="2.3.0"/>
         <targetInfos>
           <targetInfo name="Target 1"/>
