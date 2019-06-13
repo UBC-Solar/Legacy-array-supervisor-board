@@ -41,12 +41,20 @@ void PeripheralInit_GPIO(void) {
 }
 
 /*
-Disconnects contactors
+Set contactors
+
 */
-void Disconnect_Contactors(void) {
-	GPIO_SetBits(GPIOB, GPIO_Pin_2);
-	GPIO_SetBits(GPIOB, GPIO_Pin_11);
-	GPIO_SetBits(GPIOB, GPIO_Pin_12);
+void Set_Contactors(uint8_t value) {
+	if (value == 1) {
+		GPIO_SetBits(GPIOB, GPIO_Pin_2);
+		GPIO_SetBits(GPIOB, GPIO_Pin_11);
+		GPIO_SetBits(GPIOB, GPIO_Pin_12);
+	} else {
+		GPIO_ResetBits(GPIOB, GPIO_Pin_2);
+		GPIO_ResetBits(GPIOB, GPIO_Pin_11);
+		GPIO_ResetBits(GPIOB, GPIO_Pin_12);
+
+	}
 }
 
 /*
