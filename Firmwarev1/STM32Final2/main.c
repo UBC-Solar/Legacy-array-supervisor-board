@@ -55,14 +55,14 @@ int main(void) {
 		
 		uint8_t ocd = Check_OCD();
 		if (ocd) { // if we hit OCD limits, warn the MCN and shutdown
-			Disconnect_Contactors();
+			Set_Contactors(1);
 			CAN_msg_t current_error_message = {CRITICAL_OCD_ERROR_ID, {ocd}, 1};
 			//CANSend(&current_error_message);
 			break;
 		}
 		Set_LEDS(temperature_error, current_error, voltage_error); 
 		if (current_error | voltage_error) { // if we encounter a critical error that may damage components, warn the MCN and shutdown
-			Disconnect_Contactors();
+			Set_Contactors(1);
 			uint8_t currhi = current_error >> 8;
 			uint8_t currlo = current_error & 0xFF;
 			uint8_t volthi = voltage_error >> 8;
