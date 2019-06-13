@@ -21,9 +21,11 @@ Initializes GPIO peripherals for LEDs, contactors, etc.
 void PeripheralInit_GPIO(void);
 
 /*
-Disconnects contactors
+Sets contactors
+0: reset
+1: set
 */
-void Disconnect_Contactors(void);
+void Set_Contactors(uint8_t value);
 
 /*
 Writes to LEDs with appropriate warning/error codes.
